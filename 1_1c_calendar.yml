@@ -1,0 +1,4026 @@
+# 1.1c_calendar.yml — auto-generated, manually editable
+year: 2026
+year_window: 2026-05-01 to 2027-04-30
+generated: '2026-04-30'
+generator_version: mpd-calendar-builder v1.0
+notes: |
+  Manual overrides take precedence. To skip a date, set status: skipped.
+  To freeze a date against rebuild, set frozen: true.
+  Past corpus topics (W01 Apr 18, W02 Apr 25) are excluded from this 365-day forward queue.
+
+entries:
+  - date: 2026-05-01
+    week: "D001"
+    topic_short: "PayYourselfWrong"
+    topic: "Why 'Pay Yourself First' Doesn't Work for Most People"
+    pillar: P1
+    keyword: "pay yourself first not working"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-02
+    week: "D002"
+    topic_short: "TenPercentLie"
+    topic: "Why Saving 10% Isn't Actually Enough Anymore"
+    pillar: P1
+    keyword: "saving 10 percent not enough"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-03
+    week: "D003"
+    topic_short: "HoneyfundStory"
+    topic: "How Honeyfund Built a Honeymoon Crowdfunding Empire"
+    pillar: P4
+    keyword: "honeyfund honeymoon crowdfund"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-04
+    week: "D004"
+    topic_short: "IndexFundMyth"
+    topic: "Why Index Fund Advice Misses the Point Most People Hear"
+    pillar: P1
+    keyword: "index fund advice misunderstood"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-05
+    week: "D005"
+    topic_short: "CompoundMyth"
+    topic: "Why Compound Interest Calculators Lie About Real Returns"
+    pillar: P1
+    keyword: "compound interest calculator wrong"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-06
+    week: "D006"
+    topic_short: "MortgageDecode"
+    topic: "How Mortgage Underwriting Actually Works (The Real Decision)"
+    pillar: P2
+    keyword: "how mortgage underwriting works"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-07
+    week: "D007"
+    topic_short: "InvestingMyth"
+    topic: "Why Most People's 'Investing' Is Actually Just Saving"
+    pillar: P1
+    keyword: "investing vs saving difference"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-08
+    week: "D008"
+    topic_short: "FrugalBackfire"
+    topic: "Why Frugal Living Advice Backfires for High Earners"
+    pillar: P1
+    keyword: "frugal living advice high income"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-09
+    week: "D009"
+    topic_short: "RegistryCost"
+    topic: "The Hidden Cost of Wedding Registry Markups"
+    pillar: P3
+    keyword: "wedding registry markup"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-10
+    week: "D010"
+    topic_short: "FourPercentMyth"
+    topic: "Why the 4% Rule Is Statistical Fiction for Modern Retirees"
+    pillar: P1
+    keyword: "4 percent rule retirement wrong"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-11
+    week: "D011"
+    topic_short: "IndexTrack"
+    topic: "How Index Funds Actually Track the Market"
+    pillar: P2
+    keyword: "how index funds track market"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-12
+    week: "D012"
+    topic_short: "FakeDiversify"
+    topic: "Why Diversification Advice Is Often Pseudo-Diversification"
+    pillar: P1
+    keyword: "diversification advice wrong"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-13
+    week: "D013"
+    topic_short: "SearsCollapse"
+    topic: "How Sears Lost a Century-Long Lead in 7 Years"
+    pillar: P4
+    keyword: "how sears collapsed"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-14
+    week: "D014"
+    topic_short: "AllInclCost"
+    topic: "The Hidden Cost of Honeymoon Resort 'All-Inclusive' Pricing"
+    pillar: P3
+    keyword: "all inclusive hidden cost"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-15
+    week: "D015"
+    topic_short: "CreditCalc"
+    topic: "How Credit Scores Are Actually Calculated"
+    pillar: P2
+    keyword: "how credit scores calculated"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-16
+    week: "D016"
+    topic_short: "DebtAdviceMyth"
+    topic: "Why 'Avoid Debt at All Costs' Costs You More"
+    pillar: P1
+    keyword: "avoid debt advice wrong"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-17
+    week: "D017"
+    topic_short: "KodakStory"
+    topic: "How Kodak Killed Itself by Inventing the Digital Camera"
+    pillar: P4
+    keyword: "kodak digital camera failure"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-18
+    week: "D018"
+    topic_short: "TravelInsGap"
+    topic: "The Hidden Cost of Travel Insurance You Skipped"
+    pillar: P3
+    keyword: "travel insurance gap"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-19
+    week: "D019"
+    topic_short: "FedRateDecode"
+    topic: "How the Federal Reserve Actually Sets Interest Rates"
+    pillar: P2
+    keyword: "how fed sets interest rates"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-20
+    week: "D020"
+    topic_short: "BudgetAppTrap"
+    topic: "Why Most Budgeting Apps Make You Spend More"
+    pillar: P1
+    keyword: "budgeting apps backfire"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-21
+    week: "D021"
+    topic_short: "FoundMoneyMA"
+    topic: "Why We Treat 'Found Money' Differently From 'Earned Money'"
+    pillar: P5
+    keyword: "mental accounting found money"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-22
+    week: "D022"
+    topic_short: "RetireCalcMyth"
+    topic: "Why Retirement Calculators Underestimate by 30%"
+    pillar: P1
+    keyword: "retirement calculator underestimate"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-23
+    week: "D023"
+    topic_short: "PaymentProc"
+    topic: "How Payment Processors Make Money on Every Swipe"
+    pillar: P2
+    keyword: "how payment processors make money"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-24
+    week: "D024"
+    topic_short: "CashHoldingCost"
+    topic: "The Hidden Cost of Holding Cash in a 0.5% Account"
+    pillar: P3
+    keyword: "hidden cost of cash savings"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-25
+    week: "D025"
+    topic_short: "RoboAdvisorMyth"
+    topic: "Why Robo-Advisors Aren't As Smart As They Sound"
+    pillar: P1
+    keyword: "robo advisors limitations"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-26
+    week: "D026"
+    topic_short: "ToysRUsStory"
+    topic: "How Toys R Us Was Killed by Its Own Debt"
+    pillar: P4
+    keyword: "toys r us debt collapse"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-27
+    week: "D027"
+    topic_short: "BuybackMech"
+    topic: "How Stock Buybacks Actually Affect Share Price"
+    pillar: P2
+    keyword: "how stock buybacks work"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-28
+    week: "D028"
+    topic_short: "LeftDigitBias"
+    topic: "Why $9.99 Still Feels Cheaper Than $10 (Decades Later)"
+    pillar: P5
+    keyword: "left digit price effect"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-29
+    week: "D029"
+    topic_short: "CashKingMyth"
+    topic: "Why Cash Is King Advice Is Wrong in High Inflation"
+    pillar: P1
+    keyword: "cash is king inflation wrong"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-30
+    week: "D030"
+    topic_short: "HOAHiddenCost"
+    topic: "The Hidden Cost of HOA Living That Sellers Don't Mention"
+    pillar: P3
+    keyword: "hidden cost of hoa"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-05-31
+    week: "W05-corpus"
+    topic_short: "BuyNow"
+    topic: "Why 'Buy Now, Pay Later' Is Designed to Feel Free"
+    pillar: P3
+    keyword: "buy now pay later hidden costs trap"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W05 (hand-curated)"
+  - date: 2026-06-01
+    week: "W28-corpus"
+    topic_short: "SplittingBill"
+    topic: "Why Splitting the Bill Evenly Costs Everyone More (The Group Spending Effect)"
+    pillar: P1
+    keyword: "splitting bill evenly overconsumption psychology"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W28 (hand-curated)"
+  - date: 2026-06-02
+    week: "D033"
+    topic_short: "BondMech"
+    topic: "How Bonds Actually Work (The Mechanism Most People Miss)"
+    pillar: P2
+    keyword: "how bonds actually work"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-03
+    week: "D034"
+    topic_short: "RealEstateMyth"
+    topic: "Why Real Estate Always Goes Up Is a Statistical Mirage"
+    pillar: P1
+    keyword: "real estate always goes up wrong"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-04
+    week: "D035"
+    topic_short: "LTCMStory"
+    topic: "How Long-Term Capital Management Almost Broke the World"
+    pillar: P4
+    keyword: "ltcm collapse story"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-05
+    week: "D036"
+    topic_short: "RothConvertCost"
+    topic: "The Hidden Cost of Roth IRA Conversions"
+    pillar: P3
+    keyword: "hidden cost roth conversion"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-06
+    week: "D037"
+    topic_short: "REITDecode"
+    topic: "How REITs Make Money Differently From Stocks"
+    pillar: P2
+    keyword: "how reits make money"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-07
+    week: "D038"
+    topic_short: "InvestBookMyth"
+    topic: "Why Most Investment Books Teach the Wrong Lesson"
+    pillar: P1
+    keyword: "investment books wrong"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-08
+    week: "D039"
+    topic_short: "EnronStory"
+    topic: "How Enron's Accounting Lies Lasted as Long as They Did"
+    pillar: P4
+    keyword: "enron accounting fraud"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-09
+    week: "D040"
+    topic_short: "RoboHidden"
+    topic: "The Hidden Cost of Using Robo-Advisors Long-Term"
+    pillar: P3
+    keyword: "robo advisor hidden fees"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-10
+    week: "D041"
+    topic_short: "ETFvsMF"
+    topic: "How ETFs Actually Trade Different From Mutual Funds"
+    pillar: P2
+    keyword: "etf vs mutual fund mechanism"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-11
+    week: "D042"
+    topic_short: "HSAvs401k"
+    topic: "Why HSA Maxing Beats 401k Maxing for Most People"
+    pillar: P1
+    keyword: "hsa beats 401k"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-12
+    week: "D043"
+    topic_short: "CardSpendBias"
+    topic: "Why We Spend More When We Pay With Cards"
+    pillar: P5
+    keyword: "cards make us spend more"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-13
+    week: "D044"
+    topic_short: "RothConvert"
+    topic: "Why Roth Conversions Are Misunderstood by 90% of Advisors"
+    pillar: P1
+    keyword: "roth conversion misunderstood"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-14
+    week: "D045"
+    topic_short: "ForexMech"
+    topic: "How Forex Markets Actually Settle Trillions Daily"
+    pillar: P2
+    keyword: "how forex markets settle"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-15
+    week: "D046"
+    topic_short: "ExpenseRatioCost"
+    topic: "The Hidden Cost of Mutual Fund Expense Ratios"
+    pillar: P3
+    keyword: "mutual fund expense ratio cost"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-16
+    week: "D047"
+    topic_short: "GameStopStory"
+    topic: "How GameStop Became a Hedge Fund Killer for 90 Minutes"
+    pillar: P4
+    keyword: "gamestop short squeeze story"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-17
+    week: "D048"
+    topic_short: "PayYourselfWron2"
+    topic: "Why 'Pay Yourself First' Doesn't Work for Most People (Variant 2)"
+    pillar: P1
+    keyword: "pay yourself first not working v2"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-18
+    week: "D049"
+    topic_short: "TitleInsRacket"
+    topic: "How Title Insurance Actually Works (And Why It's a Racket)"
+    pillar: P2
+    keyword: "how title insurance works"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-19
+    week: "D050"
+    topic_short: "SubStackCost"
+    topic: "The Hidden Cost of Subscription Stacking"
+    pillar: P3
+    keyword: "subscription stacking hidden cost"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-20
+    week: "D051"
+    topic_short: "TenPercentLie2"
+    topic: "Why Saving 10% Isn't Actually Enough Anymore (Variant 2)"
+    pillar: P1
+    keyword: "saving 10 percent not enough v2"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-21
+    week: "D052"
+    topic_short: "RoundGoalBias"
+    topic: "Why Round Numbers Feel Like Better Goals"
+    pillar: P5
+    keyword: "round number goal psychology"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-22
+    week: "D053"
+    topic_short: "EscrowMech"
+    topic: "How Escrow Companies Actually Hold Your Money"
+    pillar: P2
+    keyword: "how escrow accounts work"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-23
+    week: "D054"
+    topic_short: "IndexFundMyth2"
+    topic: "Why Index Fund Advice Misses the Point Most People Hear (Variant 2)"
+    pillar: P1
+    keyword: "index fund advice misunderstood v2"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-24
+    week: "D055"
+    topic_short: "TheranosStory"
+    topic: "How Theranos Got $9 Billion on a Press Release"
+    pillar: P4
+    keyword: "theranos fraud story"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-25
+    week: "D056"
+    topic_short: "TravelInsCost"
+    topic: "The Hidden Cost of Travel Insurance You Never Read"
+    pillar: P3
+    keyword: "travel insurance hidden cost"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-26
+    week: "D057"
+    topic_short: "MortgServ"
+    topic: "How Mortgage Servicing Companies Make Money"
+    pillar: P2
+    keyword: "mortgage servicing money"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-27
+    week: "D058"
+    topic_short: "CompoundMyth2"
+    topic: "Why Compound Interest Calculators Lie About Real Returns (Variant 2)"
+    pillar: P1
+    keyword: "compound interest calculator wrong v2"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-28
+    week: "D059"
+    topic_short: "LehmanStory"
+    topic: "How Lehman's Repo 105 Trick Hid the Truth Until It Couldn't"
+    pillar: P4
+    keyword: "lehman repo 105 trick"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-29
+    week: "D060"
+    topic_short: "WarrantyCost"
+    topic: "The Hidden Cost of Extended Warranties on Big Purchases"
+    pillar: P3
+    keyword: "extended warranty hidden cost"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-06-30
+    week: "D061"
+    topic_short: "InvestingMyth2"
+    topic: "Why Most People's 'Investing' Is Actually Just Saving (Variant 2)"
+    pillar: P1
+    keyword: "investing vs saving difference v2"
+    relevance_window: "Wedding / vacation prep"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-01
+    week: "D062"
+    topic_short: "529Decode"
+    topic: "How 529 Plans Actually Work Across State Lines"
+    pillar: P2
+    keyword: "how 529 plans work states"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-02
+    week: "D063"
+    topic_short: "SpecificityBias"
+    topic: "Why Gas Station Posters Use Specific Numbers"
+    pillar: P5
+    keyword: "specificity numerical persuasion"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-03
+    week: "D064"
+    topic_short: "PrivVsFedLoan"
+    topic: "The Hidden Cost of Private vs Federal Student Loans"
+    pillar: P3
+    keyword: "private vs federal student loan"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-04
+    week: "D065"
+    topic_short: "CollegeROIMyth"
+    topic: "Why College ROI Calculations Lie About Most Majors"
+    pillar: P1
+    keyword: "college roi by major"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-05
+    week: "D066"
+    topic_short: "StudLoanServ"
+    topic: "How Federal Student Loan Servicers Actually Get Paid"
+    pillar: P2
+    keyword: "student loan servicer payment"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-06
+    week: "D067"
+    topic_short: "BearStearns5Day"
+    topic: "How Bear Stearns Collapsed in 5 Days"
+    pillar: P4
+    keyword: "bear stearns collapse"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-07
+    week: "D068"
+    topic_short: "FrugalBackfire2"
+    topic: "Why Frugal Living Advice Backfires for High Earners (Variant 2)"
+    pillar: P1
+    keyword: "frugal living advice high income v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-08
+    week: "D069"
+    topic_short: "StickerNetCost"
+    topic: "The Hidden Cost of College Sticker vs Net Price"
+    pillar: P3
+    keyword: "college sticker vs net price"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-09
+    week: "D070"
+    topic_short: "HOAMech"
+    topic: "How HOAs Are Actually Funded and Governed"
+    pillar: P2
+    keyword: "how HOAs work funding"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-10
+    week: "D071"
+    topic_short: "FourPercentMyth2"
+    topic: "Why the 4% Rule Is Statistical Fiction for Modern Retirees (Variant 2)"
+    pillar: P1
+    keyword: "4 percent rule retirement wrong v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-11
+    week: "D072"
+    topic_short: "FreeSampleBias"
+    topic: "Why We Trust Free Samples Even When They Cost Us"
+    pillar: P5
+    keyword: "free sample reciprocity"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-12
+    week: "D073"
+    topic_short: "AIGCollapse"
+    topic: "How AIG Almost Took Down the Global Financial System"
+    pillar: P4
+    keyword: "aig collapse 2008"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-13
+    week: "D074"
+    topic_short: "HealthNetwork"
+    topic: "How Health Insurance Networks Actually Negotiate Prices"
+    pillar: P2
+    keyword: "health insurance network pricing"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-14
+    week: "D075"
+    topic_short: "FakeDiversify2"
+    topic: "Why Diversification Advice Is Often Pseudo-Diversification (Variant 2)"
+    pillar: P1
+    keyword: "diversification advice wrong v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-15
+    week: "D076"
+    topic_short: "CredMonCost"
+    topic: "The Hidden Cost of Credit Score Monitoring Services"
+    pillar: P3
+    keyword: "credit monitoring hidden cost"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-16
+    week: "D077"
+    topic_short: "SavingLossBias"
+    topic: "Why Saving Feels Like Losing for Some People"
+    pillar: P5
+    keyword: "saving feels like loss"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-17
+    week: "D078"
+    topic_short: "PensionMech"
+    topic: "How Pension Funds Actually Invest the Trillions"
+    pillar: P2
+    keyword: "how pension funds invest"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-18
+    week: "D079"
+    topic_short: "DebtAdviceMyth2"
+    topic: "Why 'Avoid Debt at All Costs' Costs You More (Variant 2)"
+    pillar: P1
+    keyword: "avoid debt advice wrong v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-19
+    week: "D080"
+    topic_short: "ConvFeeCost"
+    topic: "The Hidden Cost of Convenience Fees in Bill Payments"
+    pillar: P3
+    keyword: "convenience fees hidden cost"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-20
+    week: "D081"
+    topic_short: "WeWorkStory"
+    topic: "How WeWork's Valuation Collapsed by $42B in 6 Weeks"
+    pillar: P4
+    keyword: "wework valuation collapse"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-21
+    week: "D082"
+    topic_short: "AnnuityMech"
+    topic: "How Annuity Companies Actually Make Their Money"
+    pillar: P2
+    keyword: "annuity company business model"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-22
+    week: "D083"
+    topic_short: "BudgetAppTrap2"
+    topic: "Why Most Budgeting Apps Make You Spend More (Variant 2)"
+    pillar: P1
+    keyword: "budgeting apps backfire v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-23
+    week: "D084"
+    topic_short: "ForexFeeCost"
+    topic: "The Hidden Cost of Foreign Transaction Fees"
+    pillar: P3
+    keyword: "foreign transaction fees cost"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-24
+    week: "D085"
+    topic_short: "RetireCalcMyth2"
+    topic: "Why Retirement Calculators Underestimate by 30% (Variant 2)"
+    pillar: P1
+    keyword: "retirement calculator underestimate v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-25
+    week: "D086"
+    topic_short: "WholesaleRE"
+    topic: "How Wholesale Real Estate Actually Works"
+    pillar: P2
+    keyword: "wholesale real estate explained"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-26
+    week: "D087"
+    topic_short: "QuibiBurn"
+    topic: "How Quibi Burned $1.75B in 6 Months"
+    pillar: P4
+    keyword: "quibi failure story"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-27
+    week: "D088"
+    topic_short: "RoboAdvisorMyth2"
+    topic: "Why Robo-Advisors Aren't As Smart As They Sound (Variant 2)"
+    pillar: P1
+    keyword: "robo advisors limitations v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-28
+    week: "D089"
+    topic_short: "CashbackCost"
+    topic: "The Hidden Cost of Cashback That Actually Costs You"
+    pillar: P3
+    keyword: "cashback hidden cost"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-29
+    week: "D090"
+    topic_short: "DividendDecode"
+    topic: "How Dividend Stocks Actually Pay (The Tax Reality)"
+    pillar: P2
+    keyword: "dividend stocks tax mechanism"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-30
+    week: "D091"
+    topic_short: "SlowMusicBias"
+    topic: "Why We Buy More When the Music Is Slower"
+    pillar: P5
+    keyword: "slow music spend more"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-07-31
+    week: "D092"
+    topic_short: "CashKingMyth2"
+    topic: "Why Cash Is King Advice Is Wrong in High Inflation (Variant 2)"
+    pillar: P1
+    keyword: "cash is king inflation wrong v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-01
+    week: "W27-corpus"
+    topic_short: "StudentLoan"
+    topic: "How Student Loan Interest Actually Works (And Why It Was Designed That Way)"
+    pillar: P2
+    keyword: "how student loan interest capitalization works"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W27 (hand-curated)"
+  - date: 2026-08-02
+    week: "D094"
+    topic_short: "RadioShackEnd"
+    topic: "How RadioShack Survived Bankruptcy Twice and Still Failed"
+    pillar: P4
+    keyword: "radioshack bankruptcy story"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-03
+    week: "D095"
+    topic_short: "MortgageDecode2"
+    topic: "How Mortgage Underwriting Actually Works (The Real Decision) (Variant 2)"
+    pillar: P2
+    keyword: "how mortgage underwriting works v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-04
+    week: "D096"
+    topic_short: "RealEstateMyth2"
+    topic: "Why Real Estate Always Goes Up Is a Statistical Mirage (Variant 2)"
+    pillar: P1
+    keyword: "real estate always goes up wrong v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-05
+    week: "D097"
+    topic_short: "SurpriseBilCost"
+    topic: "The Hidden Cost of Healthcare Surprise Billing"
+    pillar: P3
+    keyword: "surprise medical bill hidden"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-06
+    week: "D098"
+    topic_short: "LimitedTimeBias"
+    topic: "Why 'Limited Time Offer' Triggers Spending Even When False"
+    pillar: P5
+    keyword: "limited time offer urgency"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-07
+    week: "D099"
+    topic_short: "IndexTrack2"
+    topic: "How Index Funds Actually Track the Market (Variant 2)"
+    pillar: P2
+    keyword: "how index funds track market v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-08
+    week: "D100"
+    topic_short: "InvestBookMyth2"
+    topic: "Why Most Investment Books Teach the Wrong Lesson (Variant 2)"
+    pillar: P1
+    keyword: "investment books wrong v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-09
+    week: "D101"
+    topic_short: "TaxSwUpcharge"
+    topic: "The Hidden Cost of Tax Software Upcharges"
+    pillar: P3
+    keyword: "tax software hidden fees"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-10
+    week: "D102"
+    topic_short: "PetsComStory"
+    topic: "How Pets.com Defined the Dot-Com Bust in One Sock"
+    pillar: P4
+    keyword: "pets dot com sock puppet"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-11
+    week: "D103"
+    topic_short: "CreditCalc2"
+    topic: "How Credit Scores Are Actually Calculated (Variant 2)"
+    pillar: P2
+    keyword: "how credit scores calculated v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-12
+    week: "D104"
+    topic_short: "HSAvs401k2"
+    topic: "Why HSA Maxing Beats 401k Maxing for Most People (Variant 2)"
+    pillar: P1
+    keyword: "hsa beats 401k v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-13
+    week: "D105"
+    topic_short: "VarAnnuityCost"
+    topic: "The Hidden Cost of Variable Annuities"
+    pillar: P3
+    keyword: "variable annuity hidden cost"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-14
+    week: "D106"
+    topic_short: "RothConvert2"
+    topic: "Why Roth Conversions Are Misunderstood by 90% of Advisors (Variant 2)"
+    pillar: P1
+    keyword: "roth conversion misunderstood v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-15
+    week: "D107"
+    topic_short: "FedRateDecode2"
+    topic: "How the Federal Reserve Actually Sets Interest Rates (Variant 2)"
+    pillar: P2
+    keyword: "how fed sets interest rates v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-16
+    week: "D108"
+    topic_short: "OneThirdMath"
+    topic: "How Long John Silver's Failed at Math (and Burgers)"
+    pillar: P4
+    keyword: "long john silver one third pound"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-17
+    week: "D109"
+    topic_short: "MoneyTabooBias"
+    topic: "Why We Avoid Talking About Money With Family"
+    pillar: P5
+    keyword: "money taboo family avoidance"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-18
+    week: "D110"
+    topic_short: "PayYourselfWron3"
+    topic: "Why 'Pay Yourself First' Doesn't Work for Most People (Variant 3)"
+    pillar: P1
+    keyword: "pay yourself first not working v3"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-19
+    week: "D111"
+    topic_short: "PaymentProc2"
+    topic: "How Payment Processors Make Money on Every Swipe (Variant 2)"
+    pillar: P2
+    keyword: "how payment processors make money v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-20
+    week: "D112"
+    topic_short: "GiftCardBreak"
+    topic: "The Hidden Cost of Gift Cards That Never Get Used"
+    pillar: P3
+    keyword: "gift card breakage cost"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-21
+    week: "D113"
+    topic_short: "TenPercentLie3"
+    topic: "Why Saving 10% Isn't Actually Enough Anymore (Variant 3)"
+    pillar: P1
+    keyword: "saving 10 percent not enough v3"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-22
+    week: "D114"
+    topic_short: "SchlitzStory"
+    topic: "How Schlitz Beer Killed Itself Trying to Cut Costs"
+    pillar: P4
+    keyword: "schlitz beer cost cutting"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-23
+    week: "D115"
+    topic_short: "BuybackMech2"
+    topic: "How Stock Buybacks Actually Affect Share Price (Variant 2)"
+    pillar: P2
+    keyword: "how stock buybacks work v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-24
+    week: "D116"
+    topic_short: "IndexFundMyth3"
+    topic: "Why Index Fund Advice Misses the Point Most People Hear (Variant 3)"
+    pillar: P1
+    keyword: "index fund advice misunderstood v3"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-25
+    week: "D117"
+    topic_short: "AutoRenewCost"
+    topic: "The Hidden Cost of Auto-Renewing Premium Subscriptions"
+    pillar: P3
+    keyword: "auto renew hidden cost"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-26
+    week: "D118"
+    topic_short: "FirstSalaryBias"
+    topic: "Why First Salary Anchors Career Earnings for Decades"
+    pillar: P5
+    keyword: "first salary anchoring"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-27
+    week: "D119"
+    topic_short: "BondMech2"
+    topic: "How Bonds Actually Work (The Mechanism Most People Miss) (Variant 2)"
+    pillar: P2
+    keyword: "how bonds actually work v2"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-28
+    week: "D120"
+    topic_short: "CompoundMyth3"
+    topic: "Why Compound Interest Calculators Lie About Real Returns (Variant 3)"
+    pillar: P1
+    keyword: "compound interest calculator wrong v3"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-29
+    week: "D121"
+    topic_short: "DripPriceCost"
+    topic: "The Hidden Cost of Drip Pricing in Online Shopping"
+    pillar: P3
+    keyword: "drip pricing hidden cost"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-30
+    week: "D122"
+    topic_short: "BordersStory"
+    topic: "How Borders Bookstore Lost the Internet to Amazon"
+    pillar: P4
+    keyword: "borders amazon failure"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-08-31
+    week: "D123"
+    topic_short: "InvestingMyth3"
+    topic: "Why Most People's 'Investing' Is Actually Just Saving (Variant 3)"
+    pillar: P1
+    keyword: "investing vs saving difference v3"
+    relevance_window: "Back-to-school"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-01
+    week: "D124"
+    topic_short: "FedFYDecode"
+    topic: "How the Federal Fiscal Year Actually Works"
+    pillar: P2
+    keyword: "federal fiscal year explained"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-02
+    week: "D125"
+    topic_short: "DebtSettleCost"
+    topic: "The Hidden Cost of Debt Settlement Companies"
+    pillar: P3
+    keyword: "debt settlement hidden cost"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-03
+    week: "D126"
+    topic_short: "Shutdown2018"
+    topic: "How the 2018 Government Shutdown Cost $3B in 35 Days"
+    pillar: P4
+    keyword: "2018 shutdown cost story"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-04
+    week: "D127"
+    topic_short: "FrugalBackfire3"
+    topic: "Why Frugal Living Advice Backfires for High Earners (Variant 3)"
+    pillar: P1
+    keyword: "frugal living advice high income v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-05
+    week: "D128"
+    topic_short: "ShutdownFund"
+    topic: "How Government Shutdowns Are Funded (or Not)"
+    pillar: P2
+    keyword: "government shutdown funding"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-06
+    week: "D129"
+    topic_short: "DecoyPricing"
+    topic: "Why Decoy Pricing Tricks 90% of Shoppers"
+    pillar: P5
+    keyword: "decoy pricing effect"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-07
+    week: "D130"
+    topic_short: "FourPercentMyth3"
+    topic: "Why the 4% Rule Is Statistical Fiction for Modern Retirees (Variant 3)"
+    pillar: P1
+    keyword: "4 percent rule retirement wrong v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-08
+    week: "D131"
+    topic_short: "CashHoldingCost2"
+    topic: "The Hidden Cost of Holding Cash in a 0.5% Account (Variant 2)"
+    pillar: P3
+    keyword: "hidden cost of cash savings v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-09
+    week: "D132"
+    topic_short: "REITDecode2"
+    topic: "How REITs Make Money Differently From Stocks (Variant 2)"
+    pillar: P2
+    keyword: "how reits make money v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-10
+    week: "D133"
+    topic_short: "FakeDiversify3"
+    topic: "Why Diversification Advice Is Often Pseudo-Diversification (Variant 3)"
+    pillar: P1
+    keyword: "diversification advice wrong v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-11
+    week: "D134"
+    topic_short: "RJRNabisco"
+    topic: "How RJR Nabisco's LBO Set the Template for Greed"
+    pillar: P4
+    keyword: "rjr nabisco lbo barbarians"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-12
+    week: "D135"
+    topic_short: "HOAHiddenCost2"
+    topic: "The Hidden Cost of HOA Living That Sellers Don't Mention (Variant 2)"
+    pillar: P3
+    keyword: "hidden cost of hoa v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-13
+    week: "D136"
+    topic_short: "ETFvsMF2"
+    topic: "How ETFs Actually Trade Different From Mutual Funds (Variant 2)"
+    pillar: P2
+    keyword: "etf vs mutual fund mechanism v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-14
+    week: "D137"
+    topic_short: "DebtAdviceMyth3"
+    topic: "Why 'Avoid Debt at All Costs' Costs You More (Variant 3)"
+    pillar: P1
+    keyword: "avoid debt advice wrong v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-15
+    week: "D138"
+    topic_short: "MenuPriceBias"
+    topic: "Why Restaurant Menus Hide the Most Expensive Items"
+    pillar: P5
+    keyword: "menu pricing psychology"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-16
+    week: "D139"
+    topic_short: "SearsCollapse2"
+    topic: "How Sears Lost a Century-Long Lead in 7 Years (Variant 2)"
+    pillar: P4
+    keyword: "how sears collapsed v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-17
+    week: "D140"
+    topic_short: "ForexMech2"
+    topic: "How Forex Markets Actually Settle Trillions Daily (Variant 2)"
+    pillar: P2
+    keyword: "how forex markets settle v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-18
+    week: "D141"
+    topic_short: "BudgetAppTrap3"
+    topic: "Why Most Budgeting Apps Make You Spend More (Variant 3)"
+    pillar: P1
+    keyword: "budgeting apps backfire v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-19
+    week: "D142"
+    topic_short: "RothConvertCost2"
+    topic: "The Hidden Cost of Roth IRA Conversions (Variant 2)"
+    pillar: P3
+    keyword: "hidden cost roth conversion v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-20
+    week: "D143"
+    topic_short: "KodakStory2"
+    topic: "How Kodak Killed Itself by Inventing the Digital Camera (Variant 2)"
+    pillar: P4
+    keyword: "kodak digital camera failure v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-21
+    week: "D144"
+    topic_short: "TitleInsRacket2"
+    topic: "How Title Insurance Actually Works (And Why It's a Racket) (Variant 2)"
+    pillar: P2
+    keyword: "how title insurance works v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-22
+    week: "D145"
+    topic_short: "RetireCalcMyth3"
+    topic: "Why Retirement Calculators Underestimate by 30% (Variant 3)"
+    pillar: P1
+    keyword: "retirement calculator underestimate v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-23
+    week: "D146"
+    topic_short: "RoboHidden2"
+    topic: "The Hidden Cost of Using Robo-Advisors Long-Term (Variant 2)"
+    pillar: P3
+    keyword: "robo advisor hidden fees v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-24
+    week: "D147"
+    topic_short: "RoboAdvisorMyth3"
+    topic: "Why Robo-Advisors Aren't As Smart As They Sound (Variant 3)"
+    pillar: P1
+    keyword: "robo advisors limitations v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-25
+    week: "D148"
+    topic_short: "EscrowMech2"
+    topic: "How Escrow Companies Actually Hold Your Money (Variant 2)"
+    pillar: P2
+    keyword: "how escrow accounts work v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-26
+    week: "D149"
+    topic_short: "InvestAppBias"
+    topic: "Why Investing Apps Make You Trade More"
+    pillar: P5
+    keyword: "investing app gamification"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-27
+    week: "D150"
+    topic_short: "CashKingMyth3"
+    topic: "Why Cash Is King Advice Is Wrong in High Inflation (Variant 3)"
+    pillar: P1
+    keyword: "cash is king inflation wrong v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-28
+    week: "D151"
+    topic_short: "ExpenseRatioCos2"
+    topic: "The Hidden Cost of Mutual Fund Expense Ratios (Variant 2)"
+    pillar: P3
+    keyword: "mutual fund expense ratio cost v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-29
+    week: "D152"
+    topic_short: "MortgServ2"
+    topic: "How Mortgage Servicing Companies Make Money (Variant 2)"
+    pillar: P2
+    keyword: "mortgage servicing money v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-09-30
+    week: "D153"
+    topic_short: "FirstPriceAnchor"
+    topic: "Why We Anchor on the First Price We Hear"
+    pillar: P5
+    keyword: "anchoring price first impression"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-01
+    week: "W20-corpus"
+    topic_short: "BlockbusterLate"
+    topic: "How Blockbuster's Late Fee Strategy Killed the Largest Video Chain on Earth"
+    pillar: P4
+    keyword: "how Blockbuster failed late fees Netflix"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W20 (hand-curated)"
+  - date: 2026-10-02
+    week: "W26-corpus"
+    topic_short: "CostGig"
+    topic: "The Hidden Cost of the Gig Economy (The Math Uber Doesn't Want You to Do)"
+    pillar: P3
+    keyword: "gig economy true hourly rate Uber hidden costs"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W26 (hand-curated)"
+  - date: 2026-10-03
+    week: "D156"
+    topic_short: "RealEstateMyth3"
+    topic: "Why Real Estate Always Goes Up Is a Statistical Mirage (Variant 3)"
+    pillar: P1
+    keyword: "real estate always goes up wrong v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-04
+    week: "D157"
+    topic_short: "HOAMech2"
+    topic: "How HOAs Are Actually Funded and Governed (Variant 2)"
+    pillar: P2
+    keyword: "how HOAs work funding v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-05
+    week: "D158"
+    topic_short: "ToysRUsStory2"
+    topic: "How Toys R Us Was Killed by Its Own Debt (Variant 2)"
+    pillar: P4
+    keyword: "toys r us debt collapse v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-06
+    week: "D159"
+    topic_short: "InvestBookMyth3"
+    topic: "Why Most Investment Books Teach the Wrong Lesson (Variant 3)"
+    pillar: P1
+    keyword: "investment books wrong v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-07
+    week: "D160"
+    topic_short: "SubStackCost2"
+    topic: "The Hidden Cost of Subscription Stacking (Variant 2)"
+    pillar: P3
+    keyword: "subscription stacking hidden cost v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-08
+    week: "D161"
+    topic_short: "HealthNetwork2"
+    topic: "How Health Insurance Networks Actually Negotiate Prices (Variant 2)"
+    pillar: P2
+    keyword: "health insurance network pricing v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-09
+    week: "D162"
+    topic_short: "HSAvs401k3"
+    topic: "Why HSA Maxing Beats 401k Maxing for Most People (Variant 3)"
+    pillar: P1
+    keyword: "hsa beats 401k v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-10
+    week: "D163"
+    topic_short: "LTCMStory2"
+    topic: "How Long-Term Capital Management Almost Broke the World (Variant 2)"
+    pillar: P4
+    keyword: "ltcm collapse story v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-11
+    week: "D164"
+    topic_short: "TravelInsCost2"
+    topic: "The Hidden Cost of Travel Insurance You Never Read (Variant 2)"
+    pillar: P3
+    keyword: "travel insurance hidden cost v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-12
+    week: "D165"
+    topic_short: "PensionMech2"
+    topic: "How Pension Funds Actually Invest the Trillions (Variant 2)"
+    pillar: P2
+    keyword: "how pension funds invest v2"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-13
+    week: "D166"
+    topic_short: "RothConvert3"
+    topic: "Why Roth Conversions Are Misunderstood by 90% of Advisors (Variant 3)"
+    pillar: P1
+    keyword: "roth conversion misunderstood v3"
+    relevance_window: "Fiscal year-end"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-10-14
+    week: "W43-corpus"
+    topic_short: "SearsEverything"
+    topic: "How Sears Had Everything Amazon Has — And Still Failed"
+    pillar: P4
+    keyword: "why Sears failed Amazon had everything"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W43 (hand-curated)"
+  - date: 2026-10-15
+    week: "W35-corpus"
+    topic_short: "PayingOff"
+    topic: "Why Paying Off Your Mortgage Early Might Be the Wrong Decision"
+    pillar: P1
+    keyword: "should I pay off mortgage early opportunity cost"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W35 (hand-curated)"
+  - date: 2026-10-16
+    week: "W33-corpus"
+    topic_short: "EmployeeBenefits"
+    topic: "Why Your Employee Benefits Package Is Probably Leaving You Thousands on the Table"
+    pillar: P1
+    keyword: "employee benefits 401k match HSA ESPP missing"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W33 (hand-curated)"
+  - date: 2026-10-17
+    week: "W31-corpus"
+    topic_short: "CostBuying"
+    topic: "The Hidden Cost of Buying a House (The Number Nobody Puts in the Brochure)"
+    pillar: P3
+    keyword: "true total cost of buying a house"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W31 (hand-curated)"
+  - date: 2026-10-18
+    week: "W25-corpus"
+    topic_short: "PaydayLoans"
+    topic: "How Payday Loans Are Engineered to Be Impossible to Escape"
+    pillar: P2
+    keyword: "how payday loans work APR trap rollover"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W25 (hand-curated)"
+  - date: 2026-10-19
+    week: "W19-corpus"
+    topic_short: "EmergencyFund"
+    topic: "Why the Standard Emergency Fund Advice Is Mathematically Wrong for Most People"
+    pillar: P1
+    keyword: "emergency fund 3-6 months advice wrong"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W19 (hand-curated)"
+  - date: 2026-10-20
+    week: "W16-corpus"
+    topic_short: "GymsMoney"
+    topic: "How Gyms Make Money From People Who Don't Go"
+    pillar: P2
+    keyword: "how gyms make money overcapacity model"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W16 (hand-curated)"
+  - date: 2026-10-21
+    week: "W14-corpus"
+    topic_short: "SalaryRaise"
+    topic: "Why Your Salary Raise Disappears (The System That Erodes Every Pay Increase)"
+    pillar: P1
+    keyword: "why salary raise disappears bracket creep"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W14 (hand-curated)"
+  - date: 2026-10-22
+    week: "W12-corpus"
+    topic_short: "CostOwning"
+    topic: "The Hidden Cost of Owning a Car (The Number Most People Never Calculate)"
+    pillar: P3
+    keyword: "true cost of car ownership per mile"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W12 (hand-curated)"
+  - date: 2026-10-23
+    week: "W10-corpus"
+    topic_short: "ServicesEngineer"
+    topic: "How Streaming Services Engineer Subscription Lock-In"
+    pillar: P2
+    keyword: "streaming service subscription psychology lock-in"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W10 (hand-curated)"
+  - date: 2026-10-24
+    week: "W08-corpus"
+    topic_short: "CompaniesMoney"
+    topic: "How Insurance Companies Actually Make Money (Hint: It's Not Your Premiums)"
+    pillar: P2
+    keyword: "how insurance companies make money float"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W08 (hand-curated)"
+  - date: 2026-10-25
+    week: "W04-corpus"
+    topic_short: "CostFree"
+    topic: "The Hidden Cost of 'Free' Apps (You're Not the Customer)"
+    pillar: P3
+    keyword: "hidden cost of free apps data harvesting"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W04 (hand-curated)"
+  - date: 2026-10-26
+    week: "W03-corpus"
+    topic_short: "CreditCard"
+    topic: "How Credit Card Companies Make Money (Even If You Pay On Time)"
+    pillar: P2
+    keyword: "how credit card companies make money"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W03 (hand-curated)"
+  - date: 2026-10-27
+    week: "W06-corpus"
+    topic_short: "SunkCost"
+    topic: "The Sunk Cost Fallacy: What No One Tells You It's For"
+    pillar: P5
+    keyword: "sunk cost fallacy behavioral economics"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W06 (hand-curated)"
+  - date: 2026-10-28
+    week: "W09-corpus"
+    topic_short: "RentingThrowing"
+    topic: "Why Renting Is Not 'Throwing Money Away' (The Math Most People Skip)"
+    pillar: P1
+    keyword: "renting vs buying a home opportunity cost"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W09 (hand-curated)"
+  - date: 2026-10-29
+    week: "W11-corpus"
+    topic_short: "LossAversion"
+    topic: "Loss Aversion: Why Losing $100 Hurts More Than Winning $200 Feels Good"
+    pillar: P5
+    keyword: "loss aversion Kahneman behavioral economics"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W11 (hand-curated)"
+  - date: 2026-10-30
+    week: "W13-corpus"
+    topic_short: "McdonaldMoney"
+    topic: "How McDonald's Actually Makes Its Money (It's Not Burgers)"
+    pillar: P4
+    keyword: "how McDonalds makes money real estate"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W13 (hand-curated)"
+  - date: 2026-10-31
+    week: "W15-corpus"
+    topic_short: "BanksMoney"
+    topic: "How Banks Make Money From Free Checking Accounts"
+    pillar: P2
+    keyword: "how banks make money free checking accounts"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W15 (hand-curated)"
+  - date: 2026-11-01
+    week: "W17-corpus"
+    topic_short: "CostCredit"
+    topic: "The Hidden Cost of Your Credit Card Rewards (You're Paying for Someone Else's Points)"
+    pillar: P3
+    keyword: "hidden cost credit card rewards interchange"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W17 (hand-curated)"
+  - date: 2026-11-02
+    week: "W23-corpus"
+    topic_short: "AmazonMoney"
+    topic: "How Amazon Actually Makes Money (And It's Not From Selling You Things)"
+    pillar: P4
+    keyword: "how Amazon makes money AWS cloud"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W23 (hand-curated)"
+  - date: 2026-11-03
+    week: "W29-corpus"
+    topic_short: "EngineerDecision"
+    topic: "How Supermarkets Engineer Every Decision You Make Before You Enter"
+    pillar: P2
+    keyword: "how supermarkets manipulate shoppers store design"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W29 (hand-curated)"
+  - date: 2026-11-04
+    week: "W32-corpus"
+    topic_short: "NetflixWent"
+    topic: "How Netflix Went From Mailing DVDs to $33 Billion (And What It Actually Cost Them)"
+    pillar: P4
+    keyword: "how Netflix makes money content spend"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W32 (hand-curated)"
+  - date: 2026-11-05
+    week: "W34-corpus"
+    topic_short: "CreditScore"
+    topic: "How the Credit Score System Actually Works (And Who It Really Serves)"
+    pillar: P2
+    keyword: "how FICO credit score system works"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W34 (hand-curated)"
+  - date: 2026-11-06
+    week: "W36-corpus"
+    topic_short: "WeworkLost"
+    topic: "How WeWork Lost $47 Billion in 18 Months"
+    pillar: P4
+    keyword: "WeWork collapse $47 billion valuation fraud"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W36 (hand-curated)"
+  - date: 2026-11-07
+    week: "W46-corpus"
+    topic_short: "DebtCollection"
+    topic: "How Debt Collection Companies Make Money (The Business Behind Your Unpaid Bills)"
+    pillar: P2
+    keyword: "how debt collection companies make money"
+    relevance_window: "Always-on"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W46 (hand-curated)"
+  - date: 2026-11-08
+    week: "D192"
+    topic_short: "HolidayLoyalty"
+    topic: "The Hidden Cost of Holiday Loyalty Programs"
+    pillar: P3
+    keyword: "holiday loyalty hidden cost"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-09
+    week: "D193"
+    topic_short: "PayYourselfWron4"
+    topic: "Why 'Pay Yourself First' Doesn't Work for Most People (Variant 4)"
+    pillar: P1
+    keyword: "pay yourself first not working v4"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-10
+    week: "W40-corpus"
+    topic_short: "StoreCredit"
+    topic: "Why Store Credit Cards Are a Bad Deal (Even With the 30% Discount)"
+    pillar: P1
+    keyword: "store credit cards deferred interest bad deal"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W40 (hand-curated)"
+  - date: 2026-11-11
+    week: "W21-corpus"
+    topic_short: "ImpulseBuying"
+    topic: "The Psychology of Impulse Buying (Why Retailers Know You'll Spend Before You Do)"
+    pillar: P5
+    keyword: "psychology of impulse buying retail design"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W21 (hand-curated)"
+  - date: 2026-11-12
+    week: "W41-corpus"
+    topic_short: "EngineerHoliday"
+    topic: "How Retailers Engineer the Holiday Spending Season (The Six-Week System)"
+    pillar: P4
+    keyword: "how retailers engineer holiday spending season"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W41 (hand-curated)"
+  - date: 2026-11-13
+    week: "W38-corpus"
+    topic_short: "CostOnline"
+    topic: "The Hidden Cost of Online Shopping Returns (Retailers Built This Into Your Price)"
+    pillar: P3
+    keyword: "hidden cost online shopping returns retail"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W38 (hand-curated)"
+  - date: 2026-11-14
+    week: "W18-corpus"
+    topic_short: "AirlinesMoney"
+    topic: "How Airlines Make Money (It's Not From Selling You a Seat)"
+    pillar: P2
+    keyword: "how airlines make money loyalty programs"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W18 (hand-curated)"
+  - date: 2026-11-15
+    week: "W22-corpus"
+    topic_short: "CostLoyalty"
+    topic: "The Hidden Cost of Loyalty Programs (You're Not Being Rewarded. You're Being Retained.)"
+    pillar: P3
+    keyword: "hidden cost loyalty programs lock-in data"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W22 (hand-curated)"
+  - date: 2026-11-16
+    week: "W42-corpus"
+    topic_short: "CostGift"
+    topic: "The Hidden Cost of Gift Cards ($3 Billion Disappears Every Year)"
+    pillar: P3
+    keyword: "gift card breakage revenue hidden cost"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W42 (hand-curated)"
+  - date: 2026-11-17
+    week: "D201"
+    topic_short: "TenPercentLie4"
+    topic: "Why Saving 10% Isn't Actually Enough Anymore (Variant 4)"
+    pillar: P1
+    keyword: "saving 10 percent not enough v4"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-18
+    week: "D202"
+    topic_short: "AnnuityMech2"
+    topic: "How Annuity Companies Actually Make Their Money (Variant 2)"
+    pillar: P2
+    keyword: "annuity company business model v2"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-19
+    week: "D203"
+    topic_short: "EnronStory2"
+    topic: "How Enron's Accounting Lies Lasted as Long as They Did (Variant 2)"
+    pillar: P4
+    keyword: "enron accounting fraud v2"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-20
+    week: "D204"
+    topic_short: "BNPLHoliday"
+    topic: "The Hidden Cost of Holiday BNPL Marketing Surge"
+    pillar: P3
+    keyword: "bnpl holiday surge cost"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-21
+    week: "D205"
+    topic_short: "IndexFundMyth4"
+    topic: "Why Index Fund Advice Misses the Point Most People Hear (Variant 4)"
+    pillar: P1
+    keyword: "index fund advice misunderstood v4"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-22
+    week: "D206"
+    topic_short: "WholesaleRE2"
+    topic: "How Wholesale Real Estate Actually Works (Variant 2)"
+    pillar: P2
+    keyword: "wholesale real estate explained v2"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-23
+    week: "D207"
+    topic_short: "GiftPressure"
+    topic: "Why Holiday Gifting Feels Mandatory by Mid-November"
+    pillar: P5
+    keyword: "holiday gift social pressure"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-24
+    week: "D208"
+    topic_short: "GameStopStory2"
+    topic: "How GameStop Became a Hedge Fund Killer for 90 Minutes (Variant 2)"
+    pillar: P4
+    keyword: "gamestop short squeeze story v2"
+    relevance_window: "Pre-holiday"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-25
+    week: "D209"
+    topic_short: "FreeShipCost"
+    topic: "The Hidden Cost of Free Shipping Thresholds"
+    pillar: P3
+    keyword: "free shipping threshold cost"
+    relevance_window: "Black Friday / Cyber"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-26
+    week: "D210"
+    topic_short: "DividendDecode2"
+    topic: "How Dividend Stocks Actually Pay (The Tax Reality) (Variant 2)"
+    pillar: P2
+    keyword: "dividend stocks tax mechanism v2"
+    relevance_window: "Black Friday / Cyber"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-27
+    week: "D211"
+    topic_short: "BFDealMyth"
+    topic: "Why Black Friday Deals Aren't the Best Deals of the Year"
+    pillar: P1
+    keyword: "black friday deal myth"
+    relevance_window: "Black Friday / Cyber"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-11-28
+    week: "W24-corpus"
+    topic_short: "HagglingCar"
+    topic: "Why Haggling at Car Dealerships Always Focuses on the Wrong Number"
+    pillar: P1
+    keyword: "car dealership monthly payment anchoring trick"
+    relevance_window: "Black Friday / Cyber"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W24 (hand-curated)"
+  - date: 2026-11-29
+    week: "W39-corpus"
+    topic_short: "BlackFriday"
+    topic: "How Black Friday Actually Works (The Sale That's Not a Sale)"
+    pillar: P2
+    keyword: "how Black Friday really works pricing tricks"
+    relevance_window: "Black Friday / Cyber"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W39 (hand-curated)"
+  - date: 2026-11-30
+    week: "D214"
+    topic_short: "DoorBustBias"
+    topic: "Why Door-Buster Pricing Triggers Buying Even Without Need"
+    pillar: P5
+    keyword: "door buster pricing psychology"
+    relevance_window: "Black Friday / Cyber"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-01
+    week: "D215"
+    topic_short: "TheranosStory2"
+    topic: "How Theranos Got $9 Billion on a Press Release (Variant 2)"
+    pillar: P4
+    keyword: "theranos fraud story v2"
+    relevance_window: "Black Friday / Cyber"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-02
+    week: "D216"
+    topic_short: "DAFBeatsDirect"
+    topic: "Why DAFs Beat Direct Charitable Donations for Most People"
+    pillar: P1
+    keyword: "donor advised fund vs direct"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-03
+    week: "D217"
+    topic_short: "RMDInherited"
+    topic: "How RMDs Actually Work for Inherited IRAs"
+    pillar: P2
+    keyword: "rmd inherited ira"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-04
+    week: "D218"
+    topic_short: "YearEndDonate"
+    topic: "The Hidden Cost of Last-Minute Charitable Donations"
+    pillar: P3
+    keyword: "year end donation rush"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-05
+    week: "D219"
+    topic_short: "LehmanStory2"
+    topic: "How Lehman's Repo 105 Trick Hid the Truth Until It Couldn't (Variant 2)"
+    pillar: P4
+    keyword: "lehman repo 105 trick v2"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-06
+    week: "D220"
+    topic_short: "CompoundMyth4"
+    topic: "Why Compound Interest Calculators Lie About Real Returns (Variant 4)"
+    pillar: P1
+    keyword: "compound interest calculator wrong v4"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-07
+    week: "D221"
+    topic_short: "TLHRobo"
+    topic: "How Tax-Loss Harvesting Actually Works at Robo-Advisors"
+    pillar: P2
+    keyword: "tax loss harvest robo"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-08
+    week: "D222"
+    topic_short: "WarrantyCost2"
+    topic: "The Hidden Cost of Extended Warranties on Big Purchases (Variant 2)"
+    pillar: P3
+    keyword: "extended warranty hidden cost v2"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-09
+    week: "D223"
+    topic_short: "BundleTrickBias"
+    topic: "Why Bundling Tricks Us Into Buying More"
+    pillar: P5
+    keyword: "bundling pricing psychology"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-10
+    week: "D224"
+    topic_short: "InvestingMyth4"
+    topic: "Why Most People's 'Investing' Is Actually Just Saving (Variant 4)"
+    pillar: P1
+    keyword: "investing vs saving difference v4"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-11
+    week: "D225"
+    topic_short: "MortgageDecode3"
+    topic: "How Mortgage Underwriting Actually Works (The Real Decision) (Variant 3)"
+    pillar: P2
+    keyword: "how mortgage underwriting works v3"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-12
+    week: "D226"
+    topic_short: "CredMonCost2"
+    topic: "The Hidden Cost of Credit Score Monitoring Services (Variant 2)"
+    pillar: P3
+    keyword: "credit monitoring hidden cost v2"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-13
+    week: "D227"
+    topic_short: "FrugalBackfire4"
+    topic: "Why Frugal Living Advice Backfires for High Earners (Variant 4)"
+    pillar: P1
+    keyword: "frugal living advice high income v4"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-14
+    week: "D228"
+    topic_short: "BearStearns5Day2"
+    topic: "How Bear Stearns Collapsed in 5 Days (Variant 2)"
+    pillar: P4
+    keyword: "bear stearns collapse v2"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-15
+    week: "D229"
+    topic_short: "IndexTrack3"
+    topic: "How Index Funds Actually Track the Market (Variant 3)"
+    pillar: P2
+    keyword: "how index funds track market v3"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-16
+    week: "D230"
+    topic_short: "FourPercentMyth4"
+    topic: "Why the 4% Rule Is Statistical Fiction for Modern Retirees (Variant 4)"
+    pillar: P1
+    keyword: "4 percent rule retirement wrong v4"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-17
+    week: "W45-corpus"
+    topic_short: "PresentBias"
+    topic: "Present Bias: Why Your Brain Is Wired to Sabotage Your Future Self"
+    pillar: P5
+    keyword: "present bias hyperbolic discounting psychology"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W45 (hand-curated)"
+  - date: 2026-12-18
+    week: "D232"
+    topic_short: "ConvFeeCost2"
+    topic: "The Hidden Cost of Convenience Fees in Bill Payments (Variant 2)"
+    pillar: P3
+    keyword: "convenience fees hidden cost v2"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-19
+    week: "D233"
+    topic_short: "CreditCalc3"
+    topic: "How Credit Scores Are Actually Calculated (Variant 3)"
+    pillar: P2
+    keyword: "how credit scores calculated v3"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-20
+    week: "D234"
+    topic_short: "FakeDiversify4"
+    topic: "Why Diversification Advice Is Often Pseudo-Diversification (Variant 4)"
+    pillar: P1
+    keyword: "diversification advice wrong v4"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-21
+    week: "D235"
+    topic_short: "RecurringBias"
+    topic: "Why We Underestimate Recurring Costs"
+    pillar: P5
+    keyword: "recurring cost mental accounting"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-22
+    week: "D236"
+    topic_short: "AIGCollapse2"
+    topic: "How AIG Almost Took Down the Global Financial System (Variant 2)"
+    pillar: P4
+    keyword: "aig collapse 2008 v2"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-23
+    week: "D237"
+    topic_short: "FedRateDecode3"
+    topic: "How the Federal Reserve Actually Sets Interest Rates (Variant 3)"
+    pillar: P2
+    keyword: "how fed sets interest rates v3"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-24
+    week: "D238"
+    topic_short: "DebtAdviceMyth4"
+    topic: "Why 'Avoid Debt at All Costs' Costs You More (Variant 4)"
+    pillar: P1
+    keyword: "avoid debt advice wrong v4"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-25
+    week: "D239"
+    topic_short: "ForexFeeCost2"
+    topic: "The Hidden Cost of Foreign Transaction Fees (Variant 2)"
+    pillar: P3
+    keyword: "foreign transaction fees cost v2"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-26
+    week: "D240"
+    topic_short: "WeWorkStory2"
+    topic: "How WeWork's Valuation Collapsed by $42B in 6 Weeks (Variant 2)"
+    pillar: P4
+    keyword: "wework valuation collapse v2"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-27
+    week: "D241"
+    topic_short: "PaymentProc3"
+    topic: "How Payment Processors Make Money on Every Swipe (Variant 3)"
+    pillar: P2
+    keyword: "how payment processors make money v3"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-28
+    week: "D242"
+    topic_short: "BudgetAppTrap4"
+    topic: "Why Most Budgeting Apps Make You Spend More (Variant 4)"
+    pillar: P1
+    keyword: "budgeting apps backfire v4"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-29
+    week: "D243"
+    topic_short: "CashbackCost2"
+    topic: "The Hidden Cost of Cashback That Actually Costs You (Variant 2)"
+    pillar: P3
+    keyword: "cashback hidden cost v2"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-30
+    week: "D244"
+    topic_short: "TippingDefault"
+    topic: "Why Tipping Culture Inflates by Default Suggestions"
+    pillar: P5
+    keyword: "default tipping suggestion"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2026-12-31
+    week: "D245"
+    topic_short: "RetireCalcMyth4"
+    topic: "Why Retirement Calculators Underestimate by 30% (Variant 4)"
+    pillar: P1
+    keyword: "retirement calculator underestimate v4"
+    relevance_window: "Year-end financial moves"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-01
+    week: "D246"
+    topic_short: "BuybackMech3"
+    topic: "How Stock Buybacks Actually Affect Share Price (Variant 3)"
+    pillar: P2
+    keyword: "how stock buybacks work v3"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-02
+    week: "D247"
+    topic_short: "SurpriseBilCost2"
+    topic: "The Hidden Cost of Healthcare Surprise Billing (Variant 2)"
+    pillar: P3
+    keyword: "surprise medical bill hidden v2"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-03
+    week: "D248"
+    topic_short: "ResolFail"
+    topic: "Why New Year's Financial Resolutions Fail by January 21"
+    pillar: P1
+    keyword: "new year resolution fail"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-04
+    week: "D249"
+    topic_short: "QuibiBurn2"
+    topic: "How Quibi Burned $1.75B in 6 Months (Variant 2)"
+    pillar: P4
+    keyword: "quibi failure story v2"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-05
+    week: "D250"
+    topic_short: "BondMech3"
+    topic: "How Bonds Actually Work (The Mechanism Most People Miss) (Variant 3)"
+    pillar: P2
+    keyword: "how bonds actually work v3"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-06
+    week: "D251"
+    topic_short: "TaxSwUpcharge2"
+    topic: "The Hidden Cost of Tax Software Upcharges (Variant 2)"
+    pillar: P3
+    keyword: "tax software hidden fees v2"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-07
+    week: "D252"
+    topic_short: "SaveResolFail"
+    topic: "Why 'Save More' Resolutions Don't Stick"
+    pillar: P1
+    keyword: "save more resolution fail"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-08
+    week: "D253"
+    topic_short: "JanSpendBias"
+    topic: "Why January Spending Is Worse Than December's"
+    pillar: P5
+    keyword: "january spending psychology"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-09
+    week: "D254"
+    topic_short: "REITDecode3"
+    topic: "How REITs Make Money Differently From Stocks (Variant 3)"
+    pillar: P2
+    keyword: "how reits make money v3"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-10
+    week: "D255"
+    topic_short: "AppJanCompare"
+    topic: "Why Fitness Apps Outperform Budget Apps in January"
+    pillar: P1
+    keyword: "fitness vs budget app january"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-11
+    week: "W44-corpus"
+    topic_short: "NewYear"
+    topic: "Why New Year's Financial Resolutions Fail (And What to Set Instead)"
+    pillar: P1
+    keyword: "why financial resolutions fail implementation intention"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W44 (hand-curated)"
+  - date: 2027-01-12
+    week: "D257"
+    topic_short: "RadioShackEnd2"
+    topic: "How RadioShack Survived Bankruptcy Twice and Still Failed (Variant 2)"
+    pillar: P4
+    keyword: "radioshack bankruptcy story v2"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-13
+    week: "D258"
+    topic_short: "ETFvsMF3"
+    topic: "How ETFs Actually Trade Different From Mutual Funds (Variant 3)"
+    pillar: P2
+    keyword: "etf vs mutual fund mechanism v3"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-14
+    week: "D259"
+    topic_short: "VarAnnuityCost2"
+    topic: "The Hidden Cost of Variable Annuities (Variant 2)"
+    pillar: P3
+    keyword: "variable annuity hidden cost v2"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-15
+    week: "D260"
+    topic_short: "RoboAdvisorMyth4"
+    topic: "Why Robo-Advisors Aren't As Smart As They Sound (Variant 4)"
+    pillar: P1
+    keyword: "robo advisors limitations v4"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-16
+    week: "D261"
+    topic_short: "PetsComStory2"
+    topic: "How Pets.com Defined the Dot-Com Bust in One Sock (Variant 2)"
+    pillar: P4
+    keyword: "pets dot com sock puppet v2"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-17
+    week: "D262"
+    topic_short: "ForexMech3"
+    topic: "How Forex Markets Actually Settle Trillions Daily (Variant 3)"
+    pillar: P2
+    keyword: "how forex markets settle v3"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-18
+    week: "D263"
+    topic_short: "CashKingMyth4"
+    topic: "Why Cash Is King Advice Is Wrong in High Inflation (Variant 4)"
+    pillar: P1
+    keyword: "cash is king inflation wrong v4"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-19
+    week: "D264"
+    topic_short: "GiftCardBreak2"
+    topic: "The Hidden Cost of Gift Cards That Never Get Used (Variant 2)"
+    pillar: P3
+    keyword: "gift card breakage cost v2"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-20
+    week: "D265"
+    topic_short: "FreshStartBias"
+    topic: "Why Fresh Start Effect Is Real but Misapplied"
+    pillar: P5
+    keyword: "fresh start effect money"
+    relevance_window: "New Year reset"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-21
+    week: "D266"
+    topic_short: "RealEstateMyth4"
+    topic: "Why Real Estate Always Goes Up Is a Statistical Mirage (Variant 4)"
+    pillar: P1
+    keyword: "real estate always goes up wrong v4"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-22
+    week: "D267"
+    topic_short: "W4Decode"
+    topic: "How the W-4 Form Actually Determines Your Withholding"
+    pillar: P2
+    keyword: "how w-4 withholding works"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-23
+    week: "D268"
+    topic_short: "FreeTaxCost"
+    topic: "The Hidden Cost of Filing Free With Tax Software"
+    pillar: P3
+    keyword: "free tax filing hidden cost"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-24
+    week: "D269"
+    topic_short: "OneThirdMath2"
+    topic: "How Long John Silver's Failed at Math (and Burgers) (Variant 2)"
+    pillar: P4
+    keyword: "long john silver one third pound v2"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-25
+    week: "D270"
+    topic_short: "InvestBookMyth4"
+    topic: "Why Most Investment Books Teach the Wrong Lesson (Variant 4)"
+    pillar: P1
+    keyword: "investment books wrong v4"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-26
+    week: "D271"
+    topic_short: "TaxSwTier"
+    topic: "How Tax Software Pricing Tiers Actually Trick You"
+    pillar: P2
+    keyword: "tax software pricing tier"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-27
+    week: "D272"
+    topic_short: "AutoRenewCost2"
+    topic: "The Hidden Cost of Auto-Renewing Premium Subscriptions (Variant 2)"
+    pillar: P3
+    keyword: "auto renew hidden cost v2"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-28
+    week: "D273"
+    topic_short: "HSAvs401k4"
+    topic: "Why HSA Maxing Beats 401k Maxing for Most People (Variant 4)"
+    pillar: P1
+    keyword: "hsa beats 401k v4"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-29
+    week: "D274"
+    topic_short: "SaleSpendBias"
+    topic: "Why We Think Sales Save Money When They Trigger Spending"
+    pillar: P5
+    keyword: "sale spending trap"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-30
+    week: "D275"
+    topic_short: "TitleInsRacket3"
+    topic: "How Title Insurance Actually Works (And Why It's a Racket) (Variant 3)"
+    pillar: P2
+    keyword: "how title insurance works v3"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-01-31
+    week: "D276"
+    topic_short: "RothConvert4"
+    topic: "Why Roth Conversions Are Misunderstood by 90% of Advisors (Variant 4)"
+    pillar: P1
+    keyword: "roth conversion misunderstood v4"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-01
+    week: "D277"
+    topic_short: "SchlitzStory2"
+    topic: "How Schlitz Beer Killed Itself Trying to Cut Costs (Variant 2)"
+    pillar: P4
+    keyword: "schlitz beer cost cutting v2"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-02
+    week: "D278"
+    topic_short: "DripPriceCost2"
+    topic: "The Hidden Cost of Drip Pricing in Online Shopping (Variant 2)"
+    pillar: P3
+    keyword: "drip pricing hidden cost v2"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-03
+    week: "D279"
+    topic_short: "EscrowMech3"
+    topic: "How Escrow Companies Actually Hold Your Money (Variant 3)"
+    pillar: P2
+    keyword: "how escrow accounts work v3"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-04
+    week: "D280"
+    topic_short: "PayYourselfWron5"
+    topic: "Why 'Pay Yourself First' Doesn't Work for Most People (Variant 5)"
+    pillar: P1
+    keyword: "pay yourself first not working v5"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-05
+    week: "D281"
+    topic_short: "BordersStory2"
+    topic: "How Borders Bookstore Lost the Internet to Amazon (Variant 2)"
+    pillar: P4
+    keyword: "borders amazon failure v2"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-06
+    week: "D282"
+    topic_short: "DebtSettleCost2"
+    topic: "The Hidden Cost of Debt Settlement Companies (Variant 2)"
+    pillar: P3
+    keyword: "debt settlement hidden cost v2"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-07
+    week: "D283"
+    topic_short: "TenPercentLie5"
+    topic: "Why Saving 10% Isn't Actually Enough Anymore (Variant 5)"
+    pillar: P1
+    keyword: "saving 10 percent not enough v5"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-08
+    week: "D284"
+    topic_short: "MortgServ3"
+    topic: "How Mortgage Servicing Companies Make Money (Variant 3)"
+    pillar: P2
+    keyword: "mortgage servicing money v3"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-09
+    week: "D285"
+    topic_short: "FoundMoneyMA2"
+    topic: "Why We Treat 'Found Money' Differently From 'Earned Money' (Variant 2)"
+    pillar: P5
+    keyword: "mental accounting found money v2"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-10
+    week: "D286"
+    topic_short: "CashHoldingCost3"
+    topic: "The Hidden Cost of Holding Cash in a 0.5% Account (Variant 3)"
+    pillar: P3
+    keyword: "hidden cost of cash savings v3"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-11
+    week: "D287"
+    topic_short: "IndexFundMyth5"
+    topic: "Why Index Fund Advice Misses the Point Most People Hear (Variant 5)"
+    pillar: P1
+    keyword: "index fund advice misunderstood v5"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-12
+    week: "D288"
+    topic_short: "HOAMech3"
+    topic: "How HOAs Are Actually Funded and Governed (Variant 3)"
+    pillar: P2
+    keyword: "how HOAs work funding v3"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-13
+    week: "D289"
+    topic_short: "RJRNabisco2"
+    topic: "How RJR Nabisco's LBO Set the Template for Greed (Variant 2)"
+    pillar: P4
+    keyword: "rjr nabisco lbo barbarians v2"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-14
+    week: "D290"
+    topic_short: "CompoundMyth5"
+    topic: "Why Compound Interest Calculators Lie About Real Returns (Variant 5)"
+    pillar: P1
+    keyword: "compound interest calculator wrong v5"
+    relevance_window: "Pre-tax-season"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-15
+    week: "D291"
+    topic_short: "ItemizeCost"
+    topic: "The Hidden Cost of Itemizing When Standard Wins"
+    pillar: P3
+    keyword: "itemize vs standard cost"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-16
+    week: "D292"
+    topic_short: "HealthNetwork3"
+    topic: "How Health Insurance Networks Actually Negotiate Prices (Variant 3)"
+    pillar: P2
+    keyword: "health insurance network pricing v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-17
+    week: "D293"
+    topic_short: "InvestingMyth5"
+    topic: "Why Most People's 'Investing' Is Actually Just Saving (Variant 5)"
+    pillar: P1
+    keyword: "investing vs saving difference v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-18
+    week: "D294"
+    topic_short: "EarlyFileBias"
+    topic: "Why Filing Early Doesn't Feel Like a Win Even Though It Is"
+    pillar: P5
+    keyword: "filing early psychology"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-19
+    week: "D295"
+    topic_short: "SearsCollapse3"
+    topic: "How Sears Lost a Century-Long Lead in 7 Years (Variant 3)"
+    pillar: P4
+    keyword: "how sears collapsed v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-20
+    week: "D296"
+    topic_short: "PensionMech3"
+    topic: "How Pension Funds Actually Invest the Trillions (Variant 3)"
+    pillar: P2
+    keyword: "how pension funds invest v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-21
+    week: "D297"
+    topic_short: "FrugalBackfire5"
+    topic: "Why Frugal Living Advice Backfires for High Earners (Variant 5)"
+    pillar: P1
+    keyword: "frugal living advice high income v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-22
+    week: "D298"
+    topic_short: "IRSPayCost"
+    topic: "The Hidden Cost of IRS Direct Pay vs Bank Transfer"
+    pillar: P3
+    keyword: "irs direct pay hidden cost"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-23
+    week: "D299"
+    topic_short: "KodakStory3"
+    topic: "How Kodak Killed Itself by Inventing the Digital Camera (Variant 3)"
+    pillar: P4
+    keyword: "kodak digital camera failure v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-24
+    week: "D300"
+    topic_short: "FourPercentMyth5"
+    topic: "Why the 4% Rule Is Statistical Fiction for Modern Retirees (Variant 5)"
+    pillar: P1
+    keyword: "4 percent rule retirement wrong v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-25
+    week: "D301"
+    topic_short: "AnnuityMech3"
+    topic: "How Annuity Companies Actually Make Their Money (Variant 3)"
+    pillar: P2
+    keyword: "annuity company business model v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-26
+    week: "D302"
+    topic_short: "HOAHiddenCost3"
+    topic: "The Hidden Cost of HOA Living That Sellers Don't Mention (Variant 3)"
+    pillar: P3
+    keyword: "hidden cost of hoa v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-27
+    week: "D303"
+    topic_short: "LeftDigitBias2"
+    topic: "Why $9.99 Still Feels Cheaper Than $10 (Decades Later) (Variant 2)"
+    pillar: P5
+    keyword: "left digit price effect v2"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-02-28
+    week: "D304"
+    topic_short: "FakeDiversify5"
+    topic: "Why Diversification Advice Is Often Pseudo-Diversification (Variant 5)"
+    pillar: P1
+    keyword: "diversification advice wrong v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-01
+    week: "D305"
+    topic_short: "WholesaleRE3"
+    topic: "How Wholesale Real Estate Actually Works (Variant 3)"
+    pillar: P2
+    keyword: "wholesale real estate explained v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-02
+    week: "D306"
+    topic_short: "RothConvertCost3"
+    topic: "The Hidden Cost of Roth IRA Conversions (Variant 3)"
+    pillar: P3
+    keyword: "hidden cost roth conversion v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-03
+    week: "D307"
+    topic_short: "DebtAdviceMyth5"
+    topic: "Why 'Avoid Debt at All Costs' Costs You More (Variant 5)"
+    pillar: P1
+    keyword: "avoid debt advice wrong v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-04
+    week: "D308"
+    topic_short: "ToysRUsStory3"
+    topic: "How Toys R Us Was Killed by Its Own Debt (Variant 3)"
+    pillar: P4
+    keyword: "toys r us debt collapse v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-05
+    week: "D309"
+    topic_short: "DividendDecode3"
+    topic: "How Dividend Stocks Actually Pay (The Tax Reality) (Variant 3)"
+    pillar: P2
+    keyword: "dividend stocks tax mechanism v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-06
+    week: "D310"
+    topic_short: "BudgetAppTrap5"
+    topic: "Why Most Budgeting Apps Make You Spend More (Variant 5)"
+    pillar: P1
+    keyword: "budgeting apps backfire v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-07
+    week: "D311"
+    topic_short: "RoboHidden3"
+    topic: "The Hidden Cost of Using Robo-Advisors Long-Term (Variant 3)"
+    pillar: P3
+    keyword: "robo advisor hidden fees v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-08
+    week: "D312"
+    topic_short: "CardSpendBias2"
+    topic: "Why We Spend More When We Pay With Cards (Variant 2)"
+    pillar: P5
+    keyword: "cards make us spend more v2"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-09
+    week: "D313"
+    topic_short: "MortgageDecode4"
+    topic: "How Mortgage Underwriting Actually Works (The Real Decision) (Variant 4)"
+    pillar: P2
+    keyword: "how mortgage underwriting works v4"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-10
+    week: "D314"
+    topic_short: "RetireCalcMyth5"
+    topic: "Why Retirement Calculators Underestimate by 30% (Variant 5)"
+    pillar: P1
+    keyword: "retirement calculator underestimate v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-11
+    week: "D315"
+    topic_short: "LTCMStory3"
+    topic: "How Long-Term Capital Management Almost Broke the World (Variant 3)"
+    pillar: P4
+    keyword: "ltcm collapse story v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-12
+    week: "D316"
+    topic_short: "ExpenseRatioCos3"
+    topic: "The Hidden Cost of Mutual Fund Expense Ratios (Variant 3)"
+    pillar: P3
+    keyword: "mutual fund expense ratio cost v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-13
+    week: "D317"
+    topic_short: "IndexTrack4"
+    topic: "How Index Funds Actually Track the Market (Variant 4)"
+    pillar: P2
+    keyword: "how index funds track market v4"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-14
+    week: "D318"
+    topic_short: "RoboAdvisorMyth5"
+    topic: "Why Robo-Advisors Aren't As Smart As They Sound (Variant 5)"
+    pillar: P1
+    keyword: "robo advisors limitations v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-15
+    week: "D319"
+    topic_short: "EnronStory3"
+    topic: "How Enron's Accounting Lies Lasted as Long as They Did (Variant 3)"
+    pillar: P4
+    keyword: "enron accounting fraud v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-16
+    week: "W37-corpus"
+    topic_short: "MentalAccounting"
+    topic: "Mental Accounting: Why Your Brain Treats a Tax Refund Differently From a Salary"
+    pillar: P5
+    keyword: "mental accounting psychology money"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W37 (hand-curated)"
+  - date: 2027-03-17
+    week: "W07-corpus"
+    topic_short: "HiddenCost"
+    topic: "The Hidden Cost of Filing Taxes Late (The Penalty Doesn't Scale. It Jumps.)"
+    pillar: P3
+    keyword: "cost of filing taxes late penalty cliff"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W07 (hand-curated)"
+  - date: 2027-03-18
+    week: "W30-corpus"
+    topic_short: "AnchoringEffect"
+    topic: "The Anchoring Effect: How the First Number You See Controls Every Decision After"
+    pillar: P5
+    keyword: "anchoring effect pricing psychology"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "corpus W30 (hand-curated)"
+  - date: 2027-03-19
+    week: "D323"
+    topic_short: "CashKingMyth5"
+    topic: "Why Cash Is King Advice Is Wrong in High Inflation (Variant 5)"
+    pillar: P1
+    keyword: "cash is king inflation wrong v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-20
+    week: "D324"
+    topic_short: "CreditCalc4"
+    topic: "How Credit Scores Are Actually Calculated (Variant 4)"
+    pillar: P2
+    keyword: "how credit scores calculated v4"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-21
+    week: "D325"
+    topic_short: "SubStackCost3"
+    topic: "The Hidden Cost of Subscription Stacking (Variant 3)"
+    pillar: P3
+    keyword: "subscription stacking hidden cost v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-22
+    week: "D326"
+    topic_short: "RoundGoalBias2"
+    topic: "Why Round Numbers Feel Like Better Goals (Variant 2)"
+    pillar: P5
+    keyword: "round number goal psychology v2"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-23
+    week: "D327"
+    topic_short: "RealEstateMyth5"
+    topic: "Why Real Estate Always Goes Up Is a Statistical Mirage (Variant 5)"
+    pillar: P1
+    keyword: "real estate always goes up wrong v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-24
+    week: "D328"
+    topic_short: "FedRateDecode4"
+    topic: "How the Federal Reserve Actually Sets Interest Rates (Variant 4)"
+    pillar: P2
+    keyword: "how fed sets interest rates v4"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-25
+    week: "D329"
+    topic_short: "TravelInsCost3"
+    topic: "The Hidden Cost of Travel Insurance You Never Read (Variant 3)"
+    pillar: P3
+    keyword: "travel insurance hidden cost v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-26
+    week: "D330"
+    topic_short: "InvestBookMyth5"
+    topic: "Why Most Investment Books Teach the Wrong Lesson (Variant 5)"
+    pillar: P1
+    keyword: "investment books wrong v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-27
+    week: "D331"
+    topic_short: "GameStopStory3"
+    topic: "How GameStop Became a Hedge Fund Killer for 90 Minutes (Variant 3)"
+    pillar: P4
+    keyword: "gamestop short squeeze story v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-28
+    week: "D332"
+    topic_short: "PaymentProc4"
+    topic: "How Payment Processors Make Money on Every Swipe (Variant 4)"
+    pillar: P2
+    keyword: "how payment processors make money v4"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-29
+    week: "D333"
+    topic_short: "WarrantyCost3"
+    topic: "The Hidden Cost of Extended Warranties on Big Purchases (Variant 3)"
+    pillar: P3
+    keyword: "extended warranty hidden cost v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-30
+    week: "D334"
+    topic_short: "HSAvs401k5"
+    topic: "Why HSA Maxing Beats 401k Maxing for Most People (Variant 5)"
+    pillar: P1
+    keyword: "hsa beats 401k v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-03-31
+    week: "D335"
+    topic_short: "SpecificityBias2"
+    topic: "Why Gas Station Posters Use Specific Numbers (Variant 2)"
+    pillar: P5
+    keyword: "specificity numerical persuasion v2"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-01
+    week: "D336"
+    topic_short: "BuybackMech4"
+    topic: "How Stock Buybacks Actually Affect Share Price (Variant 4)"
+    pillar: P2
+    keyword: "how stock buybacks work v4"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-02
+    week: "D337"
+    topic_short: "RothConvert5"
+    topic: "Why Roth Conversions Are Misunderstood by 90% of Advisors (Variant 5)"
+    pillar: P1
+    keyword: "roth conversion misunderstood v5"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-03
+    week: "D338"
+    topic_short: "TheranosStory3"
+    topic: "How Theranos Got $9 Billion on a Press Release (Variant 3)"
+    pillar: P4
+    keyword: "theranos fraud story v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-04
+    week: "D339"
+    topic_short: "CredMonCost3"
+    topic: "The Hidden Cost of Credit Score Monitoring Services (Variant 3)"
+    pillar: P3
+    keyword: "credit monitoring hidden cost v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-05
+    week: "D340"
+    topic_short: "BondMech4"
+    topic: "How Bonds Actually Work (The Mechanism Most People Miss) (Variant 4)"
+    pillar: P2
+    keyword: "how bonds actually work v4"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-06
+    week: "D341"
+    topic_short: "PayYourselfWron6"
+    topic: "Why 'Pay Yourself First' Doesn't Work for Most People (Variant 6)"
+    pillar: P1
+    keyword: "pay yourself first not working v6"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-07
+    week: "D342"
+    topic_short: "LehmanStory3"
+    topic: "How Lehman's Repo 105 Trick Hid the Truth Until It Couldn't (Variant 3)"
+    pillar: P4
+    keyword: "lehman repo 105 trick v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-08
+    week: "D343"
+    topic_short: "ConvFeeCost3"
+    topic: "The Hidden Cost of Convenience Fees in Bill Payments (Variant 3)"
+    pillar: P3
+    keyword: "convenience fees hidden cost v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-09
+    week: "D344"
+    topic_short: "REITDecode4"
+    topic: "How REITs Make Money Differently From Stocks (Variant 4)"
+    pillar: P2
+    keyword: "how reits make money v4"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-10
+    week: "D345"
+    topic_short: "TenPercentLie6"
+    topic: "Why Saving 10% Isn't Actually Enough Anymore (Variant 6)"
+    pillar: P1
+    keyword: "saving 10 percent not enough v6"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-11
+    week: "D346"
+    topic_short: "FreeSampleBias2"
+    topic: "Why We Trust Free Samples Even When They Cost Us (Variant 2)"
+    pillar: P5
+    keyword: "free sample reciprocity v2"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-12
+    week: "D347"
+    topic_short: "IndexFundMyth6"
+    topic: "Why Index Fund Advice Misses the Point Most People Hear (Variant 6)"
+    pillar: P1
+    keyword: "index fund advice misunderstood v6"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-13
+    week: "D348"
+    topic_short: "ETFvsMF4"
+    topic: "How ETFs Actually Trade Different From Mutual Funds (Variant 4)"
+    pillar: P2
+    keyword: "etf vs mutual fund mechanism v4"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-14
+    week: "D349"
+    topic_short: "ForexFeeCost3"
+    topic: "The Hidden Cost of Foreign Transaction Fees (Variant 3)"
+    pillar: P3
+    keyword: "foreign transaction fees cost v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-15
+    week: "D350"
+    topic_short: "BearStearns5Day3"
+    topic: "How Bear Stearns Collapsed in 5 Days (Variant 3)"
+    pillar: P4
+    keyword: "bear stearns collapse v3"
+    relevance_window: "Tax season core"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-16
+    week: "D351"
+    topic_short: "CompoundMyth6"
+    topic: "Why Compound Interest Calculators Lie About Real Returns (Variant 6)"
+    pillar: P1
+    keyword: "compound interest calculator wrong v6"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-17
+    week: "D352"
+    topic_short: "ForexMech4"
+    topic: "How Forex Markets Actually Settle Trillions Daily (Variant 4)"
+    pillar: P2
+    keyword: "how forex markets settle v4"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-18
+    week: "D353"
+    topic_short: "CashbackCost3"
+    topic: "The Hidden Cost of Cashback That Actually Costs You (Variant 3)"
+    pillar: P3
+    keyword: "cashback hidden cost v3"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-19
+    week: "D354"
+    topic_short: "InvestingMyth6"
+    topic: "Why Most People's 'Investing' Is Actually Just Saving (Variant 6)"
+    pillar: P1
+    keyword: "investing vs saving difference v6"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-20
+    week: "D355"
+    topic_short: "SavingLossBias2"
+    topic: "Why Saving Feels Like Losing for Some People (Variant 2)"
+    pillar: P5
+    keyword: "saving feels like loss v2"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-21
+    week: "D356"
+    topic_short: "TitleInsRacket4"
+    topic: "How Title Insurance Actually Works (And Why It's a Racket) (Variant 4)"
+    pillar: P2
+    keyword: "how title insurance works v4"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-22
+    week: "D357"
+    topic_short: "FrugalBackfire6"
+    topic: "Why Frugal Living Advice Backfires for High Earners (Variant 6)"
+    pillar: P1
+    keyword: "frugal living advice high income v6"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-23
+    week: "D358"
+    topic_short: "AIGCollapse3"
+    topic: "How AIG Almost Took Down the Global Financial System (Variant 3)"
+    pillar: P4
+    keyword: "aig collapse 2008 v3"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-24
+    week: "D359"
+    topic_short: "SurpriseBilCost3"
+    topic: "The Hidden Cost of Healthcare Surprise Billing (Variant 3)"
+    pillar: P3
+    keyword: "surprise medical bill hidden v3"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-25
+    week: "D360"
+    topic_short: "EscrowMech4"
+    topic: "How Escrow Companies Actually Hold Your Money (Variant 4)"
+    pillar: P2
+    keyword: "how escrow accounts work v4"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-26
+    week: "D361"
+    topic_short: "FourPercentMyth6"
+    topic: "Why the 4% Rule Is Statistical Fiction for Modern Retirees (Variant 6)"
+    pillar: P1
+    keyword: "4 percent rule retirement wrong v6"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-27
+    week: "D362"
+    topic_short: "WeWorkStory3"
+    topic: "How WeWork's Valuation Collapsed by $42B in 6 Weeks (Variant 3)"
+    pillar: P4
+    keyword: "wework valuation collapse v3"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-28
+    week: "D363"
+    topic_short: "TaxSwUpcharge3"
+    topic: "The Hidden Cost of Tax Software Upcharges (Variant 3)"
+    pillar: P3
+    keyword: "tax software hidden fees v3"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-29
+    week: "D364"
+    topic_short: "FakeDiversify6"
+    topic: "Why Diversification Advice Is Often Pseudo-Diversification (Variant 6)"
+    pillar: P1
+    keyword: "diversification advice wrong v6"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"
+  - date: 2027-04-30
+    week: "D365"
+    topic_short: "MortgServ4"
+    topic: "How Mortgage Servicing Companies Make Money (Variant 4)"
+    pillar: P2
+    keyword: "mortgage servicing money v4"
+    relevance_window: "Post-tax reflection"
+    status: queued
+    frozen: false
+    source_notes: ""
+    notes: "auto-suggested — review before filming"

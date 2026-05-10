@@ -1,0 +1,16 @@
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Python (if any local helper scripts get added)
+__pycache__/
+*.pyc
+
+# Node (if marked.js gets vendored locally)
+node_modules/

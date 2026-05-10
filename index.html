@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MPD Knowledge Base</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  :root {
+    --canvas-base: #E4DDD0;
+    --ink: #2A2520;
+    --accent-primary: #2DB89D;
+    --accent-secondary: #F5C518;
+    --alert-reveal: #E63946;
+    --supporting: #8BA8B5;
+    --font-display: "Barlow Condensed", system-ui, sans-serif;
+    --font-body: "Barlow", system-ui, sans-serif;
+    --font-mono: "DM Mono", ui-monospace, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--canvas-base);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.55;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: 100vh;
+  }
+  nav {
+    background: var(--ink);
+    color: var(--canvas-base);
+    padding: 24px 18px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    font-size: 14px;
+  }
+  nav h1 {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 22px;
+    margin: 0 0 18px;
+    letter-spacing: 0.5px;
+  }
+  nav h2 {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 13px;
+    color: var(--accent-secondary);
+    margin: 18px 0 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  nav a {
+    display: block;
+    color: var(--canvas-base);
+    text-decoration: none;
+    padding: 4px 0;
+    font-size: 13px;
+    opacity: 0.85;
+  }
+  nav a:hover { color: var(--accent-primary); opacity: 1; }
+  main { padding: 32px 48px; max-width: 920px; }
+  main section {
+    border-top: 1px solid var(--supporting);
+    padding: 32px 0;
+    scroll-margin-top: 16px;
+  }
+  main section:first-child { border-top: none; padding-top: 0; }
+  main h1, main h2, main h3, main h4 {
+    font-family: var(--font-display);
+    font-weight: 900;
+    color: var(--ink);
+    margin-top: 1.2em;
+  }
+  main h1 { font-size: 32px; }
+  main h2 { font-size: 24px; }
+  main h3 { font-size: 18px; }
+  main code {
+    background: rgba(42, 37, 32, 0.08);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-family: var(--font-mono);
+    font-size: 0.92em;
+  }
+  main pre {
+    background: var(--ink);
+    color: var(--canvas-base);
+    padding: 14px 18px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: var(--font-mono);
+    font-size: 13px;
+  }
+  main pre code { background: transparent; padding: 0; color: inherit; }
+  main table { border-collapse: collapse; margin: 12px 0; font-size: 14px; }
+  main th, main td {
+    border-bottom: 1px solid var(--supporting);
+    padding: 6px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main th { background: rgba(42, 37, 32, 0.06); font-family: var(--font-display); font-weight: 900; }
+  .loading { color: var(--supporting); font-style: italic; }
+  .err { color: var(--alert-reveal); }
+  .meta { font-size: 12px; color: var(--supporting); font-family: var(--font-mono); margin-top: 6px; }
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <h1>MPD Knowledge</h1>
+
+  <h2>Pre-Stage Refs</h2>
+  <a href="#01_overview">01 — Overview</a>
+  <a href="#02_naming_convention">02 — Naming</a>
+  <a href="#03_workspace_layout">03 — Workspace</a>
+  <a href="#04_voice_canon">04 — Voice Canon</a>
+  <a href="#05_voice_blocklist">05 — Voice Blocklist</a>
+  <a href="#06_corpus_index">06 — Corpus Index</a>
+  <a href="#07_calendar_format">07 — Calendar Format</a>
+  <a href="#08_gates_G1_G11">08 — Gates G1–G11</a>
+  <a href="#09_gate_G12_slop">09 — Gate G12 Slop</a>
+  <a href="#10_style_tokens">10 — Style Tokens</a>
+  <a href="#11_critique_checklist_global">11 — Critique Checklist</a>
+
+  <h2>Stage Prompts</h2>
+  <a href="#20_stage_3_1_strategy">3.1 — Strategy</a>
+  <a href="#21_stage_3_2_voicescript">3.2 — Voice Script</a>
+  <a href="#22_stage_3_3_tts">3.3 — TTS</a>
+  <a href="#23_stage_3_4_audiomix">3.4 — Audio Mix</a>
+  <a href="#24_stage_3_5_srt">3.5 — SRT</a>
+  <a href="#25_stage_3_6_videohtml">3.6 — Video HTML</a>
+  <a href="#26_stage_3_7_avmerge">3.7 — A+V Merge</a>
+  <a href="#27_stage_3_8_thumbnail">3.8 — Thumbnail</a>
+  <a href="#28_stage_3_9_uploadpack">3.9 — Upload Pack</a>
+  <a href="#29_stage_3_10_library">3.10 — Library</a>
+
+  <h2>Learning Logs</h2>
+  <a href="#30_learnings_3_1">3.1 Learnings</a>
+  <a href="#31_learnings_3_2">3.2 Learnings</a>
+  <a href="#32_learnings_3_3">3.3 Learnings</a>
+  <a href="#33_learnings_3_4">3.4 Learnings</a>
+  <a href="#34_learnings_3_5">3.5 Learnings</a>
+  <a href="#35_learnings_3_6">3.6 Learnings</a>
+  <a href="#36_learnings_3_7">3.7 Learnings</a>
+  <a href="#37_learnings_3_8">3.8 Learnings</a>
+  <a href="#38_learnings_3_9">3.9 Learnings</a>
+  <a href="#39_learnings_3_10">3.10 Learnings</a>
+
+  <h2>Operational</h2>
+  <a href="#99_changelog">99 — Changelog</a>
+  <a href="https://github.com/ealihasnain/mpd-knowledge" target="_blank">GitHub repo →</a>
+</nav>
+
+<main id="main"></main>
+
+<script>
+  const FILES = [
+    "01_overview.md",
+    "02_naming_convention.md",
+    "03_workspace_layout.md",
+    "04_voice_canon.md",
+    "05_voice_blocklist.md",
+    "06_corpus_index.md",
+    "07_calendar_format.md",
+    "08_gates_G1_G11.md",
+    "09_gate_G12_slop.md",
+    "10_style_tokens.md",
+    "11_critique_checklist_global.md",
+    "20_stage_3_1_strategy.md",
+    "21_stage_3_2_voicescript.md",
+    "22_stage_3_3_tts.md",
+    "23_stage_3_4_audiomix.md",
+    "24_stage_3_5_srt.md",
+    "25_stage_3_6_videohtml.md",
+    "26_stage_3_7_avmerge.md",
+    "27_stage_3_8_thumbnail.md",
+    "28_stage_3_9_uploadpack.md",
+    "29_stage_3_10_library.md",
+    "30_learnings_3_1.md",
+    "31_learnings_3_2.md",
+    "32_learnings_3_3.md",
+    "33_learnings_3_4.md",
+    "34_learnings_3_5.md",
+    "35_learnings_3_6.md",
+    "36_learnings_3_7.md",
+    "37_learnings_3_8.md",
+    "38_learnings_3_9.md",
+    "39_learnings_3_10.md",
+    "99_changelog.md",
+  ];
+
+  function stripFrontmatter(md) {
+    if (md.startsWith("---")) {
+      const end = md.indexOf("\n---", 3);
+      if (end !== -1) return md.slice(end + 4).trim();
+    }
+    return md;
+  }
+
+  async function loadFile(filename) {
+    const id = filename.replace(/\.md$/, "");
+    const section = document.createElement("section");
+    section.id = id;
+    section.innerHTML = `<div class="loading">Loading ${filename}…</div>`;
+    document.getElementById("main").appendChild(section);
+    try {
+      const resp = await fetch(filename);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const md = await resp.text();
+      section.innerHTML = marked.parse(stripFrontmatter(md));
+      const meta = document.createElement("div");
+      meta.className = "meta";
+      meta.textContent = filename;
+      section.appendChild(meta);
+    } catch (err) {
+      section.innerHTML = `<div class="err">Failed to load ${filename}: ${err.message}</div>`;
+    }
+  }
+
+  (async () => {
+    for (const f of FILES) await loadFile(f);
+  })();
+</script>
+
+</body>
+</html>
