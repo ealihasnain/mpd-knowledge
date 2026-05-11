@@ -1,33 +1,31 @@
 ---
 id: 37_learnings_3_8
 version: 1.0
-updated: 2026-05-10
+updated: 2026-05-11
 applies_to_stages: [3.8]
 ---
 
 # Learnings — Stage 3.8 (Thumbnail)
 
 **Auto-read** at stage start (Active Rules → gate input).
-**Auto-written** at stage end (one Episode Log line, no user prompt).
+**Auto-written** at stage end.
 
 ## Active Rules
 
-Rules producer applies as gate input at stage start. New rules promoted
-here from Episode Log only on user approval during pattern review.
-
-*(No rules yet — populated as patterns emerge.)*
+- [SEED] Format: 1280×720 PNG. File size < 2 MB. Resolution check is binary fail.
+- [SEED] ONE face OR ONE icon — NEVER both. Two-subject thumbnails dilute click signal.
+- [SEED] Title overlay: ≤ 5 words, Barlow Condensed weight 900, font size ≥ 96px. ≥ 6 words = binary fail (won't read on mobile).
+- [SEED] Contrast ratio between title text and background ≥ 7:1 (WCAG AAA). Use https://webaim.org/resources/contrastchecker/ to verify.
+- [SEED] Heavy use of `--accent-secondary` (amber #F5C518) for the dollar/number/percentage callout. This is the channel's visual signature.
+- [SEED] Background paper texture: use the same grain overlay as Stage 3.6 video HTML for visual consistency.
+- [SEED] No clickbait visuals: no shocked faces, no red arrows pointing at things, no "WAIT!" yellow text bursts. These violate channel mission and tank long-term CTR.
+- [SEED] Test at mobile thumbnail size (~120×68 px) — if the dollar figure isn't readable at that size, the thumbnail fails.
+- [SEED] Save as `09_Thumbnail_v1.png` to `D###_TopicShort\`.
 
 ## Episode Log (newest first)
-
-One line per shipped episode. Auto-appended by producer at sub-task end.
-Format: `D###: WORKED — <terse> | FIX — <terse> | HYP — <terse>`
 
 *(No entries yet.)*
 
 ## Pending Promotions
-
-Patterns observed by producer in Episode Log that recur ≥3× and might
-warrant promotion to Active Rules. Reviewed by user every 5 episodes or
-on-demand via "Review learnings stage 3.8".
 
 *(No pending promotions yet.)*
