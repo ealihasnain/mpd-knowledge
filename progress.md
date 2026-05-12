@@ -1,7 +1,7 @@
 ---
 id: progress
-version: 1.0
-updated: 2026-05-11
+version: 1.1
+updated: 2026-05-12
 ---
 
 # Episode Progress — Current
@@ -31,7 +31,7 @@ with residual fails, emitted anyway) · `skipped` (manually skipped).
 
 | Stage | Status | Version | Cycles | Artifact Filename | Updated | Notes |
 |---|---|---|---|---|---|---|
-| 3.1 Strategy | queued | — | — | — | — | — |
+| 3.1 Strategy | in_progress | — | — | — | 2026-05-12 | Started in chat at 2026-05-12 |
 | 3.2 VoiceScript | queued | — | — | — | — | — |
 | 3.3 TTS | queued | — | — | — | — | — |
 | 3.4 AudioMix | queued | — | — | — | — | — |
@@ -45,8 +45,8 @@ with residual fails, emitted anyway) · `skipped` (manually skipped).
 ## Resume Point
 
 **Next stage:** 3.1 Strategy Brief
-**Last activity:** none yet
-**Last chat:** none
+**Last activity:** Stage 3.1 started 2026-05-12
+**Last chat:** current
 
 ## Open Issues
 
