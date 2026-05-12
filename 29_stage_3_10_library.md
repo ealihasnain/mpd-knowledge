@@ -1,53 +1,117 @@
 ---
 id: 29_stage_3_10_library
 version: 1.0
-updated: 2026-05-10
+updated: 2026-05-12
 applies_to_stages: [3.10]
 ---
 
 # Stage 3.10 — Library Update
 
-**Status:** v0.1 draft. Full prompt content migrated from existing producer
-skill references in Phase 4.
+## Producer's role
 
-## Output
+Final pipeline stage. Updates the corpus index with any new assets, bumps
+version, then prompts "published?" to trigger the completion handshake.
 
-`corpus + asset registry append`
+No new artifact file — this stage UPDATES `06_corpus_index.md` in place.
 
-## Gates applied
+## Inputs
 
-G11
+- `06_VideoHTML_v#.html` from Stage 3.6 — the NEW ASSETS FOR LIBRARY
+  manifest section
+- `06_corpus_index.md` — current corpus state (will be modified)
 
-## Critical requirements
+## Update operations
 
-Append new assets to 06_corpus_index.md asset library section. Bump corpus version stamp by 0.01 with one-line changelog entry. Either row count increased OR zero-asset week explicitly logged.
+### 1. Append new asset rows
 
-## Atomic refs fetched at start of stage
+For each new asset listed in 06_VideoHTML's manifest, add a row to the
+corpus's "Asset Library" section:
 
-```
-- `02_naming_convention.md`
-- `29_stage_3_10_library.md`
-- `39_learnings_3_10.md`
-```
-
-## Source
-
-Detailed prompt content for this stage will be migrated from the existing
-`mpd-producer/references/3_3_10_*.md` files during
-Phase 4 (skill rewire). Until then, the producer skill should fall back
-to its embedded stage logic.
-
-## Inputs (from prior stage)
-
-Final shipped artifacts
-
-## Auto-write to learning log on completion
-
-After stage emission (gates passed or soft-failed), producer appends one line
-to `39_learnings_3_10.md` Episode Log:
-
-```
-- D###: WORKED — <terse> | FIX — <terse> | HYP — <terse>
+```markdown
+| Asset | Category | First Used | File |
+|---|---|---|---|
+| Warren Buffett portrait | portrait | D012 PayYourselfWrong | portrait_warrenBuffett_v1.svg |
 ```
 
-Returns the regenerated learning .md as a download alongside the artifact.
+### 2. Update episode entry status
+
+In the 46-week table, find the row for D### and mark as shipped:
+
+```markdown
+| 03 | May 11 | Pay Yourself Wrong ([D001 — shipped 2026-05-11](#)) | P1 | EVERGREEN |
+```
+
+(The shipped marker can be a link to the video, added in step 4 if URL provided.)
+
+### 3. Bump corpus version stamp
+
+In the YAML frontmatter of 06_corpus_index.md:
+
+```yaml
+version: 1.0  →  version: 1.1
+updated: 2026-04-30  →  updated: 2026-05-11
+```
+
+### 4. Zero-asset week note (if no new assets)
+
+If the video reused all assets from the library, the corpus changelog gets
+a note:
+
+```markdown
+## v1.X — D### shipped (no new assets)
+Episode reused all visual assets from existing library. Library row count unchanged.
+```
+
+## G11 check
+
+Pass condition:
+- Either at least one new asset row added to corpus, OR
+- Explicit "zero new assets" note in changelog
+
+Silent skip (neither condition met) = G11 binary fail.
+
+## After update emission
+
+Producer:
+
+1. Emits updated 06_corpus_index.md as download.
+2. Updates progress.md → 3.10 status `passed`, Active Episode status →
+   `awaiting_publish_confirmation`.
+3. Auto-writes 39_learnings_3_10.md Episode Log line.
+4. Emits the three downloads (corpus, progress, learning log).
+5. Outputs the publish-prompt:
+
+```
+═══════════════════════════════════════════════════════
+D### PIPELINE COMPLETE — All 10 stages passed.
+
+Has the video been published to YouTube?
+
+  Reply "yes published [URL]" → I'll dump D### to 99_changelog.md,
+    reset progress.md, promote next episode from queue.yml.
+
+  Reply "not yet" → progress.md preserved. Resume when ready by
+    typing "resume flow" in any new chat.
+═══════════════════════════════════════════════════════
+```
+
+## On "yes published"
+
+(Detailed flow in SKILL.md §Pipeline completion. Summary: append D### record
+to 99_changelog.md, reset progress.md to clean state, promote next episode
+from queue.yml upcoming[] to active{}.)
+
+## On "not yet"
+
+Leave progress.md as-is. User can resume later or re-edit any stage.
+
+## Failure modes
+
+- **Manifest missing from VideoHTML:** G7a should have caught this at 3.6.
+  If somehow it slipped through, prompt user to add the section to the
+  VideoHTML or to confirm "zero new assets".
+- **Asset naming convention violation:** flag and request rename before
+  appending. (`fixturename` not allowed; should be `category_shortName_v1.svg`.)
+- **Episode entry not found in corpus:** the topic was added to queue.yml
+  but never to 06_corpus_index.md. Producer asks user whether to add it
+  retroactively or leave the corpus as-is.

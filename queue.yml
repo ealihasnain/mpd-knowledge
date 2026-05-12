@@ -1,32 +1,33 @@
-# queue.yml — currently active episode for the producer skill
+# queue.yml — episode queue & metadata
 # Updated manually (or via mpd-patch) when starting a new episode.
+# For active-episode runtime state, see progress.md.
 
 active:
-  date: 2026-05-01           # original target publish date
+  date: 2026-05-11
   week: D001
   topic_short: PayYourselfWrong
   topic: "Why 'Pay Yourself First' Doesn't Work for Most People"
   pillar: P1
   keyword: "pay yourself first not working"
-  status: in_progress         # queued | in_progress | shipped | skipped
-  parked_at_stage: 3.3        # set when episode is mid-pipeline
-  parked_reason: "Vista cookie expired 2026-05-02 — switched to browser-manual default per v1.3"
+  status: in_progress
   source_notes: ""
-  notes: "v1.3 architecture validation case. Resume from 3.3 manually via vistatts.com browser flow."
+  notes: "v1.3 architecture validation case. Fresh restart. See progress.md for stage-level state."
 
-# Recently completed (last 10):
+# Recently completed (last 10, FIFO, max 10 entries):
 recent:
-  []                          # populated as episodes ship
+  []
 
 # Up next (manually-curated, takes precedence over calendar):
 upcoming:
   - week: D002
-    date: 2026-05-13         # adjusted for ship-when-ready cadence
+    date: 2026-05-13
     topic_short: TenPercentLie
     topic: "Why Saving 10% Isn't Actually Enough Anymore"
     pillar: P1
+    keyword: "ten percent savings rule outdated"
   - week: D003
     date: 2026-05-15
     topic_short: HoneyfundStory
     topic: "How Honeyfund Built a Honeymoon Crowdfunding Empire"
     pillar: P4
+    keyword: "honeyfund business model"
