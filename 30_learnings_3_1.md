@@ -46,3 +46,5 @@ warrant promotion to Active Rules. Reviewed by user every 5 episodes or
 on-demand via "Review learnings stage 3.1".
 
 *(No pending promotions yet.)*
+ 
+| D001 | 2026-05-12 | v1 | cycle 1 | PASS | 82 datapoints, 1210 words, opener variety NúANúSVúIMúQúSVúN, callback $5 plant Ch1-payoff Ch7, mechanism Thaler+K&T+Laibson seated Ch5, no blocklist hits, no Active Rule violations | 
