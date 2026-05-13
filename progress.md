@@ -1,6 +1,6 @@
 ---
 id: progress
-version: 1.2
+version: 1.3
 updated: 2026-05-13
 ---
 
@@ -32,7 +32,7 @@ with residual fails, emitted anyway) · `skipped` (manually skipped).
 | Stage | Status | Version | Cycles | Artifact Filename | Updated | Notes |
 |---|---|---|---|---|---|---|
 | 3.1 Strategy | passed | v1 | 1 | 01_StrategyBrief_v1.html | 2026-05-12 | 82 datapoints, 1210 words, 7 chapters, opener variety N·AN·SV·IM·Q·SV·N, callback $5 plant Ch1→payoff Ch7, reframe Ch3 (income volatility), mechanism Ch5 (Thaler+K-T+Laibson), all gates clean |
-| 3.2 VoiceScript | queued | — | — | — | — | — |
+| 3.2 VoiceScript | in_progress | — | — | — | 2026-05-13 | stage start; ingesting 01_StrategyBrief_v1.html |
 | 3.3 TTS | queued | — | — | — | — | — |
 | 3.4 AudioMix | queued | — | — | — | — | — |
 | 3.5 SRT | queued | — | — | — | — | — |
@@ -45,8 +45,8 @@ with residual fails, emitted anyway) · `skipped` (manually skipped).
 ## Resume Point
 
 **Next stage:** 3.2 VoiceScript
-**Last activity:** 2026-05-12 — stage 3.1 passed
-**Last chat:** 6fc1a93a-c18d-4669-b0d7-7b0ac6d33d7a
+**Last activity:** 2026-05-13 — stage 3.2 started
+**Last chat:** current (3.2 in flight)
 
 ## Open Issues
 
@@ -65,3 +65,8 @@ Custom Instructions.
 `ealihasnain/mpd-episodes` repo at
 `mpd-episodes/D001_PayYourselfWrong/01_StrategyBrief_v1.html` so future
 fresh chats can `web_fetch` it via the manifest's Episodes section.
+
+2026-05-13: Stage 3.2 VoiceScript started in fresh chat after manifest
++ progress.md fetch. Crash-safe `in_progress` push emitted before
+generation begins. End-of-stage push (status → passed/soft_passed +
+artifact filename) will follow when 3.2 emits.
