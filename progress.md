@@ -1,6 +1,6 @@
 ---
 id: progress
-version: 1.1
+version: 1.2
 updated: 2026-05-13
 ---
 
@@ -62,6 +62,6 @@ addressed in skill v1.3.4 + new Push Verification Protocol in Project
 Custom Instructions.
 
 3.1 artifact (`01_StrategyBrief_v1.html`) is mirrored in the new
-`ealihasnain/episodes` repo at
-`episodes/D001_PayYourselfWrong/01_StrategyBrief_v1.html` so future
-fresh chats can `web_fetch` it via the manifest pattern.
+`ealihasnain/mpd-episodes` repo at
+`mpd-episodes/D001_PayYourselfWrong/01_StrategyBrief_v1.html` so future
+fresh chats can `web_fetch` it via the manifest's Episodes section.
