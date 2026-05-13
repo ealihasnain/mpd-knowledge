@@ -1,7 +1,7 @@
 ---
 id: manifest
-version: 1.0
-updated: 2026-05-12
+version: 1.1
+updated: 2026-05-13
 purpose: Bootstrap URL list — fetched once per chat to unlock web_fetch on all other knowledge base files.
 ---
 
@@ -68,9 +68,33 @@ below then become fetchable for any subsequent file.
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/1_1c_calendar.yml
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/99_changelog.md
 
+## Episodes (per-episode artifact indexes)
+
+Each active or completed episode pushes its text artifacts (strategy
+brief, voice script, SRT, video HTML, thumbnail PNG, upload pack) to
+`github.com/ealihasnain/episodes` and exposes a per-episode `index.md`
+listing the current versioned filenames. Fetching that index unlocks
+`web_fetch` on the artifact URLs so `mpd-producer` can ingest prior
+stages on resume. Audio (`.mp3`) and final video (`.mp4`) masters live
+in the workspace only — excluded from the episodes repo due to size and
+because the producer doesn't read them during chat-only pipeline stages.
+
+**Episode base URL pattern:**
+`https://raw.githubusercontent.com/ealihasnain/episodes/main/D###_TopicShort/<filename>`
+
+- https://raw.githubusercontent.com/ealihasnain/episodes/main/D001_PayYourselfWrong/index.md
+
 ---
 
-## Adding a new file
+## Adding a new episode
+
+1. Create folder `D###_TopicShort/` in the `episodes` repo.
+2. Push initial artifact + `index.md` listing its URL.
+3. Append the index URL to the "Episodes" section above.
+4. Bump this file's `version` + `updated`.
+5. Push the updated manifest.
+
+## Adding a new knowledge file
 
 When a new atomic ref is added to the knowledge base:
 1. Push the new file to the repo.
