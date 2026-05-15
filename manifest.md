@@ -1,107 +1,38 @@
 ---
 id: manifest
-version: 1.3
-updated: 2026-05-13
-purpose: Bootstrap URL list. Primary URLs via api.github.com (bypasses raw CDN cache lag). Fallback raw URLs used only on 403 rate-limit from api.
+version: 2.0
+updated: 2026-05-14
+purpose: Bootstrap URL list. Primary URLs via raw.githubusercontent.com (returns file body as plaintext — URLs inside become immediately allowlisted for subsequent web_fetch calls in the same chat). api.github.com used only for post-push verification (Section 8 of Project Custom Instructions) where CDN freshness matters and base64-wrapping is acceptable.
 ---
 
 # MPD Knowledge Base — URL Manifest
 
 This file is the single bootstrap point. Project Custom Instructions
-contain only this URL (api.github.com endpoint). Producer fetches this
-file at chat start; the URLs below then become fetchable for any
-subsequent file.
+contain only the raw URL of this file. Producer fetches it at chat
+start via raw.githubusercontent.com; every URL listed below becomes
+fetchable for any subsequent file in the same session — no manual
+URL injection, no base64 unwrap, no chain-break at cross-repo hops.
 
-**Primary URL pattern (used by default):**
-`https://api.github.com/repos/<owner>/<repo>/contents/<path>`
-
-api.github.com returns JSON. Parse `.content` field, base64-decode
-(handle `\n` line breaks GitHub inserts every 60 chars). The decoded
-body is the file content. Strip frontmatter as before.
-
-**Fallback URL pattern (used only on 403 from primary):**
+**Primary URL pattern:**
 `https://raw.githubusercontent.com/<owner>/<repo>/main/<path>`
 
-Raw URLs return plain text. Subject to CDN cache lag; only used when
-primary is rate-limited. If raw content appears stale, prompt user
-and wait 5+ min before retrying primary.
+Raw returns plaintext. Strip frontmatter before parsing.
+
+Cache lag: 5–15 min staleness window for previously-cached files
+after a push (newly-created files propagate within seconds). For
+just-pushed files where freshness is required, see the verification
+fallback at the bottom of this file and Section 8 of Project Custom
+Instructions.
 
 ---
 
-## Operational state (frequently updated)
+## mpd-knowledge — operational state (frequently updated)
 
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/progress.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/queue.yml
-
-## Pre-stage references
-
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/00_index.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/01_overview.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/02_naming_convention.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/03_workspace_layout.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/04_voice_canon.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/05_voice_blocklist.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/06_corpus_index.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/07_calendar_format.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/08_gates_G1_G11.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/09_gate_G12_slop.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/10_style_tokens.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/11_critique_checklist_global.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/12_rule_0_criteria.md
-
-## Stage prompts
-
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/20_stage_3_1_strategy.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/21_stage_3_2_voicescript.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/22_stage_3_3_tts.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/23_stage_3_4_audiomix.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/24_stage_3_5_srt.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/25_stage_3_6_videohtml.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/26_stage_3_7_avmerge.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/27_stage_3_8_thumbnail.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/28_stage_3_9_uploadpack.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/29_stage_3_10_library.md
-
-## Learning logs (auto-updated per stage)
-
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/30_learnings_3_1.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/31_learnings_3_2.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/32_learnings_3_3.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/33_learnings_3_4.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/34_learnings_3_5.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/35_learnings_3_6.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/36_learnings_3_7.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/37_learnings_3_8.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/38_learnings_3_9.md
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/39_learnings_3_10.md
-
-## Calendar & changelog
-
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/1_1c_calendar.yml
-- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/99_changelog.md
-
-## Episodes (per-episode artifact indexes in mpd-episodes repo)
-
-Active episode:
-- https://api.github.com/repos/ealihasnain/mpd-episodes/contents/D001_PayYourselfWrong/index.md
-
-Each per-episode index.md lists api.github.com URLs (with raw fallback)
-for that episode's artifacts. When a new episode is started, the
-producer creates `D###_TopicShort/index.md` and updates the Active
-episode line above (both primary api and fallback raw).
-
----
-
-## Fallback URLs (raw CDN — used only on 403 rate-limit from primary)
-
-Derivation rule: `api.github.com/repos/<r>/contents/<p>` ↔ `raw.githubusercontent.com/<r>/main/<p>`.
-All raw equivalents listed below to ensure allowlist inclusion.
-
-### mpd-knowledge operational state
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/progress.md
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/queue.yml
 
-### mpd-knowledge pre-stage references
+## mpd-knowledge — pre-stage references
+
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/00_index.md
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/01_overview.md
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/02_naming_convention.md
@@ -116,7 +47,8 @@ All raw equivalents listed below to ensure allowlist inclusion.
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/11_critique_checklist_global.md
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/12_rule_0_criteria.md
 
-### mpd-knowledge stage prompts
+## mpd-knowledge — stage prompts
+
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/20_stage_3_1_strategy.md
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/21_stage_3_2_voicescript.md
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/22_stage_3_3_tts.md
@@ -128,7 +60,8 @@ All raw equivalents listed below to ensure allowlist inclusion.
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/28_stage_3_9_uploadpack.md
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/29_stage_3_10_library.md
 
-### mpd-knowledge learning logs
+## mpd-knowledge — learning logs (auto-updated per stage)
+
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/30_learnings_3_1.md
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/31_learnings_3_2.md
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/32_learnings_3_3.md
@@ -140,31 +73,70 @@ All raw equivalents listed below to ensure allowlist inclusion.
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/38_learnings_3_9.md
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/39_learnings_3_10.md
 
-### mpd-knowledge calendar & changelog
+## mpd-knowledge — calendar & changelog
+
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/1_1c_calendar.yml
 - https://raw.githubusercontent.com/ealihasnain/mpd-knowledge/main/99_changelog.md
 
-### mpd-episodes active episode index
+## mpd-episodes — active episode index
+
+Active episode:
 - https://raw.githubusercontent.com/ealihasnain/mpd-episodes/main/D001_PayYourselfWrong/index.md
+
+Each per-episode `index.md` lists raw URLs for that episode's
+artifacts (StrategyBrief, VoiceScript, audio, SRT, VideoHTML,
+thumbnail, upload pack). When a new episode is started, producer
+creates `D###_TopicShort/index.md` in mpd-episodes and updates the
+Active episode line above.
+
+---
+
+## Verification fallback (api.github.com — Section 8 use only)
+
+Post-push freshness verification (Section 8 of Project Custom
+Instructions) uses api.github.com directly because raw has a 5–15 min
+CDN lag for updated files that would falsely flag fresh pushes as
+not-landed. api is fresh-on-write.
+
+Derivation rule (mechanical, no separate URL list needed):
+`raw.githubusercontent.com/<r>/main/<p>`  ⇄  `api.github.com/repos/<r>/contents/<p>`
+
+The manifest's own api URL (used by Section 8 to verify a manifest
+push):
+- https://api.github.com/repos/ealihasnain/mpd-knowledge/contents/manifest.md
+
+api.github.com returns JSON with `.content` base64-encoded (60-char
+line wrap with `\n` separators). Parse `.content`, base64-decode,
+strip frontmatter. Rate limit: 60/hr/IP unauthenticated.
 
 ---
 
 ## Adding a new file
 
-When a new atomic ref is added to the knowledge base:
 1. Push the new file to the repo.
-2. Append its api.github.com URL to the appropriate primary section above.
-3. Append its raw.githubusercontent.com URL to the matching Fallback section.
-4. Bump this file's `version` and `updated` in frontmatter.
-5. Push the updated manifest.
+2. Append its **raw URL** to the appropriate section above.
+3. Bump this file's `version` and `updated` in frontmatter.
+4. Push the updated manifest.
 
-When a new episode is started:
+Next chat will see fresh content automatically — newly-created files
+propagate to raw CDN within seconds. (Cache lag only affects
+*previously-cached* files that were just updated, which is the
+verification scenario covered by Section 8.)
+
+## Starting a new episode
+
 1. Create folder `D###_TopicShort/` in mpd-episodes.
-2. Create `index.md` with api.github.com URLs to that episode's artifacts
-   (with raw fallback URLs in same file).
-3. Update Episodes section above: replace prior active episode's index.md
-   URL with the new one (both primary api and fallback raw equivalent).
-4. Bump manifest version and push.
+2. Create `index.md` listing raw URLs for that episode's artifacts.
+3. Update the "Active episode" line above: replace prior episode's
+   `index.md` URL with the new one.
+4. Bump manifest `version` and push.
 
-Next chat will see fresh content automatically — api.github.com is not
-subject to raw CDN cache lag.
+## Migration note (v1.x → v2.0)
+
+v1.x listed api URLs as primary and duplicated raw URLs as fallback.
+This caused a chain-break: api responses are base64-wrapped JSON, so
+URLs inside the manifest body never appeared as plaintext to
+web_fetch's allowlist, and cross-repo hops (mpd-knowledge → mpd-episodes
+→ artifacts) required manual user paste-injection. v2.0 lists raw URLs
+as primary (returns plaintext, URLs propagate automatically) and keeps
+api purely for Section 8 post-push verification where freshness matters.
